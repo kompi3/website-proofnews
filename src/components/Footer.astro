@@ -1,0 +1,120 @@
+---
+import { CONTACT_EMAIL, SITE_TITLE } from '../consts';
+const today = new Date();
+---
+
+<footer>
+	<div class="footer-inner">
+		<div class="footer-brand">
+			<span class="brand-mark" aria-hidden="true">✓</span>
+			<strong>{SITE_TITLE}</strong>
+			<p>Evidence-based fact-checking — don't share it until we check it.</p>
+			<p>
+				Tips &amp; corrections: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+			</p>
+		</div>
+		<div class="footer-links">
+			<nav class="footer-nav" aria-label="Footer">
+				<a href="/">Home</a>
+				<a href="/blog">Blog</a>
+				<a href="/about">About</a>
+				<a href="/contact">Contact</a>
+				<a href="/rss.xml">RSS</a>
+			</nav>
+			<nav class="footer-legal" aria-label="Legal">
+				<a href="/dmca">DMCA</a>
+				<a href="/disclaimer">Disclaimer</a>
+				<a href="/privacy-policy">Privacy Policy</a>
+				<a href="/terms">Terms &amp; Conditions</a>
+			</nav>
+		</div>
+	</div>
+	<div class="footer-base">&copy; {today.getFullYear()} {SITE_TITLE}. All rights reserved.</div>
+</footer>
+<style>
+	footer {
+		border-top: 1px solid var(--border);
+		background: var(--bg-soft);
+		color: var(--muted);
+		margin-top: 2em;
+	}
+	.footer-inner {
+		width: 1120px;
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 3em 1.5em 2em;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		gap: 2em;
+		flex-wrap: wrap;
+	}
+	.footer-brand strong {
+		color: var(--text);
+		font-size: 1.15rem;
+		margin-left: 0.4em;
+		vertical-align: middle;
+	}
+	.footer-brand p {
+		font-size: 0.95rem;
+		max-width: 34ch;
+		margin-top: 0.75em;
+	}
+	.brand-mark {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 1.7em;
+		height: 1.7em;
+		font-size: 1.2rem;
+		font-weight: 800;
+		color: #fff;
+		background: var(--accent);
+		border-radius: 50%;
+		vertical-align: middle;
+	}
+	.footer-links {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75em;
+		padding-top: 0.4em;
+	}
+	.footer-nav {
+		display: flex;
+		gap: 1.5em;
+		flex-wrap: wrap;
+	}
+	.footer-nav a {
+		color: var(--muted);
+		font-weight: 600;
+		font-size: 0.95rem;
+	}
+	.footer-nav a:hover {
+		color: var(--accent);
+	}
+	.footer-legal {
+		display: flex;
+		gap: 1.25em;
+		flex-wrap: wrap;
+	}
+	.footer-legal a {
+		color: var(--muted);
+		font-size: 0.85rem;
+		opacity: 0.85;
+	}
+	.footer-legal a:hover {
+		color: var(--accent);
+	}
+	.footer-base {
+		border-top: 1px solid var(--border);
+		text-align: center;
+		padding: 1.25em 1em;
+		font-size: 0.85rem;
+	}
+	@media (max-width: 720px) {
+		.footer-inner {
+			flex-direction: column;
+			gap: 1.5em;
+		}
+	}
+</style>

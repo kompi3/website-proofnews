@@ -1,0 +1,76 @@
+---
+import Page from '../layouts/Page.astro';
+import { CONTACT_EMAIL } from '../consts';
+---
+
+<Page
+	title="About Us"
+	description="ProofNews is an independent fact-checking publication investigating viral claims, health myths, and tech rumors — and showing its work."
+	eyebrow="Who We Are"
+>
+	<p>
+		<strong>ProofNews</strong> is an independent fact-checking publication with a simple rule:
+		don't share it until we check it. We investigate the claims racing around social media —
+		viral health tips, tech scares, science myths, trending rumors — trace each one to its
+		source, weigh it against the evidence, and publish a clear verdict.
+	</p>
+
+	<h2>What We Check</h2>
+	<ul>
+		<li>
+			<strong>Health</strong> — wellness myths, diet claims, and medical rumors, checked against
+			real research.
+		</li>
+		<li>
+			<strong>Technology</strong> — AI scares, gadget rumors, and digital-age urban legends.
+		</li>
+		<li><strong>Science</strong> — space myths, science misconceptions, and bad pop science.</li>
+		<li>
+			<strong>Viral Claims</strong> — whatever is trending right now, put to the test.
+		</li>
+	</ul>
+
+	<h2>How We Rate Claims</h2>
+	<p>Every investigation ends with one of five verdicts:</p>
+	<ul>
+		<li><strong>True</strong> — accurate as stated.</li>
+		<li><strong>Mostly True</strong> — accurate overall, with minor caveats.</li>
+		<li><strong>Misleading</strong> — contains truth but misleads.</li>
+		<li><strong>False</strong> — not supported by the evidence.</li>
+		<li><strong>Unproven</strong> — not enough evidence either way.</li>
+	</ul>
+
+	<h2>Our Editorial Standards</h2>
+	<ul>
+		<li>
+			<strong>Evidence first.</strong> We base verdicts on primary sources — peer-reviewed
+			research, official data, and direct statements — wherever possible.
+		</li>
+		<li>
+			<strong>Show our work.</strong> We explain where every key fact came from so you can check
+			it yourself.
+		</li>
+		<li>
+			<strong>Corrections.</strong> When we get something wrong, we correct it promptly and
+			transparently. If you spot an error, please <a href="/contact">let us know</a>.
+		</li>
+		<li>
+			<strong>No false balance.</strong> We follow the weight of the evidence — we don't give
+			equal airtime to fringe positions the data doesn't support.
+		</li>
+	</ul>
+
+	<h2>Images</h2>
+	<p>
+		Photography on ProofNews comes from <a href="https://unsplash.com" rel="noopener">Unsplash</a>,
+		unless otherwise credited. Images are illustrative and may not depict the specific claim or
+		event described in an article.
+	</p>
+
+	<h2>Get in Touch</h2>
+	<p>
+		Seen a claim we should check, or found a mistake in one of our verdicts? We'd love to hear
+		from you — head over to our <a href="/contact">contact page</a> or email us directly at
+		<a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+	</p>
+</Page>

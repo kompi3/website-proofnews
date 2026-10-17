@@ -1,0 +1,67 @@
+---
+import Page from '../layouts/Page.astro';
+import { CONTACT_EMAIL } from '../consts';
+---
+
+<Page
+	title="DMCA Policy"
+	description="ProofNews DMCA copyright policy: how to report alleged copyright infringement."
+	eyebrow="Legal"
+>
+	<p>
+		ProofNews respects the intellectual property rights of others and complies with the Digital
+		Millennium Copyright Act (DMCA). If you believe that content on this website infringes your
+		copyright, you may request its removal by sending us a notice with the information below.
+	</p>
+
+	<h2>Filing a Takedown Notice</h2>
+	<p>Your notice must include:</p>
+	<ul>
+		<li>
+			Identification of the copyrighted work you claim has been infringed (or a representative
+			list, if multiple works are involved).
+		</li>
+		<li>
+			Identification of the allegedly infringing material, including the specific URL(s) on
+			ProofNews.biz.id where it appears.
+		</li>
+		<li>
+			Your full name, address, telephone number, and email address so we can contact you.
+		</li>
+		<li>
+			A statement that you have a good-faith belief that the disputed use is not authorized by
+			the copyright owner, its agent, or the law.
+		</li>
+		<li>
+			A statement, made under penalty of perjury, that the information in your notice is accurate
+			and that you are the copyright owner or authorized to act on the owner's behalf.
+		</li>
+		<li>Your physical or electronic signature.</li>
+	</ul>
+	<p>
+		Send notices to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the
+		subject line "DMCA Takedown Notice".
+	</p>
+
+	<h2>Counter-Notices</h2>
+	<p>
+		If you believe material was removed in error, you may send a counter-notice containing your
+		contact information, identification of the removed material, a statement under penalty of
+		perjury that you have a good-faith belief the material was removed by mistake, and your
+		consent to the jurisdiction of your local federal court.
+	</p>
+
+	<h2>Repeat Infringers</h2>
+	<p>
+		We reserve the right to remove content and restrict access for users who repeatedly infringe
+		the intellectual property rights of others.
+	</p>
+
+	<h2>Our Own Content</h2>
+	<p>
+		All original text published on ProofNews is our own. Photography is sourced from
+		<a href="https://unsplash.com" rel="noopener">Unsplash</a> under its license, unless otherwise
+		credited. If you are a photographer who believes your work has been misattributed, please
+		contact us and we will correct it promptly.
+	</p>
+</Page>

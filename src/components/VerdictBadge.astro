@@ -1,0 +1,15 @@
+---
+import { VERDICTS, type Verdict } from '../consts';
+
+interface Props {
+	verdict: Verdict;
+}
+
+const { verdict } = Astro.props;
+const meta = VERDICTS[verdict];
+---
+
+<span class="verdict-badge" style={`background-color: ${meta.color}`} title={meta.blurb}>
+	<span class="dot" aria-hidden="true"></span>
+	{verdict}
+</span>

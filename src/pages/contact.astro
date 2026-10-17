@@ -1,0 +1,121 @@
+---
+import Page from '../layouts/Page.astro';
+import { CONTACT_EMAIL } from '../consts';
+---
+
+<Page
+	title="Contact Us"
+	description="Get in touch with ProofNews — submit a claim to check, report an error, or send feedback."
+	eyebrow="Get in Touch"
+>
+	<p>
+		Seen a viral claim we should investigate? Spotted an error in one of our verdicts? We read
+		everything that comes in. Fill out the form below or email us directly at
+		<a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+	</p>
+
+	<form id="contact-form" class="contact-form">
+		<div class="field">
+			<label for="name">Your name</label>
+			<input id="name" name="name" type="text" required autocomplete="name" />
+		</div>
+		<div class="field">
+			<label for="email">Your email</label>
+			<input id="email" name="email" type="email" required autocomplete="email" />
+		</div>
+		<div class="field">
+			<label for="subject">Subject</label>
+			<input
+				id="subject"
+				name="subject"
+				type="text"
+				required
+				placeholder="Claim to check, correction, feedback…"
+			/>
+		</div>
+		<div class="field">
+			<label for="message">Message</label>
+			<textarea
+				id="message"
+				name="message"
+				rows="6"
+				required
+				placeholder="Paste the claim and where you saw it, if you can."
+			></textarea>
+		</div>
+		<button class="btn btn-primary" type="submit">Send Message</button>
+		<p class="form-note">
+			This form opens your email app with the message pre-filled — nothing is sent until you
+			press send there.
+		</p>
+	</form>
+
+	<h2>What to Send Us</h2>
+	<ul>
+		<li><strong>Claims to check</strong> — a viral post, health tip, or rumor with a link or screenshot reference.</li>
+		<li><strong>Corrections</strong> — found a factual error in a verdict? Tell us and we'll review it.</li>
+		<li><strong>Feedback</strong> — what you'd like to see more (or less) of.</li>
+	</ul>
+</Page>
+
+<style>
+	.contact-form {
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: var(--radius);
+		padding: 2em;
+		margin: 2em 0;
+	}
+	.field {
+		margin-bottom: 1.25em;
+	}
+	.field label {
+		display: block;
+		font-weight: 700;
+		margin-bottom: 0.4em;
+		color: var(--text);
+	}
+	.field input,
+	.field textarea {
+		width: 100%;
+		padding: 0.75em 1em;
+		border-radius: 8px;
+		border: 1px solid var(--border);
+		background: var(--bg);
+		color: var(--text);
+		font-family: inherit;
+		font-size: 1rem;
+	}
+	.field input:focus,
+	.field textarea:focus {
+		outline: none;
+		border-color: var(--accent);
+	}
+	.form-note {
+		font-size: 0.85rem;
+		margin-top: 1em;
+		margin-bottom: 0;
+	}
+	@media (max-width: 720px) {
+		.contact-form {
+			padding: 1.25em;
+		}
+	}
+</style>
+
+<script define:vars={{ CONTACT_EMAIL }}>
+	const form = document.getElementById('contact-form');
+	form?.addEventListener('submit', (e) => {
+		e.preventDefault();
+		const data = new FormData(form);
+		const name = String(data.get('name') ?? '');
+		const email = String(data.get('email') ?? '');
+		const subject = String(data.get('subject') ?? '');
+		const message = String(data.get('message') ?? '');
+		const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
+		window.location.href =
+			`mailto:${CONTACT_EMAIL}` +
+			`?subject=${encodeURIComponent('[ProofNews] ' + subject)}` +
+			`&body=${encodeURIComponent(body)}`;
+	});
+</script>

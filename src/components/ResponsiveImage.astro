@@ -1,0 +1,28 @@
+---
+// Self-hosted responsive image: AVIF first, WebP fallback, explicit
+// dimensions (no layout shift), async decoding.
+interface Props {
+	id: string; // Unsplash photo id, e.g. '1517976487492-5750f3195933'
+	size?: '700' | '1000';
+	alt?: string;
+	loading?: 'lazy' | 'eager';
+	fetchpriority?: 'high' | 'low' | 'auto';
+}
+
+const { id, size = '700', alt = '', loading = 'lazy', fetchpriority } = Astro.props;
+const dims = size === '1000' ? { w: 1000, h: 563 } : { w: 700, h: 394 };
+---
+
+<picture>
+	<source srcset={`/img/${id}-${size}.avif`} type="image/avif" />
+	<source srcset={`/img/${id}-${size}.webp`} type="image/webp" />
+	<img
+		src={`/img/${id}-${size}.webp`}
+		alt={alt}
+		width={dims.w}
+		height={dims.h}
+		loading={loading}
+		decoding="async"
+		fetchpriority={fetchpriority}
+	/>
+</picture>

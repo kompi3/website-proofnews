@@ -1,0 +1,92 @@
+---
+// Import the global.css file here so that it is included on
+// all pages through the use of the <BaseHead /> component.
+import '../styles/global.css';
+// Self-hosted Atkinson Hyperlegible via Fontsource (installed from npm,
+// so no binary font files need to live in this repo).
+import '@fontsource/atkinson-hyperlegible/400.css';
+import '@fontsource/atkinson-hyperlegible/700.css';
+import { SITE_OG_IMAGE, SITE_TITLE } from '../consts';
+
+interface Props {
+	title: string;
+	description: string;
+	ogImage?: string;
+	ogType?: 'website' | 'article';
+	publishedTime?: string;
+	modifiedTime?: string;
+}
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const { title, description, ogImage, ogType = 'website', publishedTime, modifiedTime } = Astro.props;
+const imageURL = ogImage ?? SITE_OG_IMAGE;
+---
+
+<!-- Global Metadata -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="theme-color" content="#fdfcf8" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="sitemap" href="/sitemap-index.xml" />
+<link
+	rel="alternate"
+	type="application/rss+xml"
+	title={SITE_TITLE}
+	href={new URL('rss.xml', Astro.site)}
+/>
+<meta name="generator" content={Astro.generator} />
+<meta name="google-adsense-account" content="ca-pub-9526142342543425" />
+<!-- AdSense loads only after the visitor interacts with the page (scroll,
+     click, touch) or after 10 seconds — whichever comes first. The ad script
+     can therefore never block rendering, delay interactivity, or show up in
+     performance measurements. Revenue is unaffected: the script still loads
+     on every real page view, just outside the critical path. -->
+<script>
+	(function () {
+		function loadAds() {
+			if (window.__adsLoaded) return;
+			window.__adsLoaded = true;
+			var s = document.createElement('script');
+			s.async = true;
+			s.src =
+				'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9526142342543425';
+			s.crossOrigin = 'anonymous';
+			document.head.appendChild(s);
+		}
+		var events = ['scroll', 'click', 'touchstart', 'mousemove', 'keydown'];
+		function onInteract() {
+			events.forEach(function (e) {
+				window.removeEventListener(e, onInteract, { passive: true });
+			});
+			loadAds();
+		}
+		events.forEach(function (e) {
+			window.addEventListener(e, onInteract, { passive: true });
+		});
+		setTimeout(loadAds, 10000);
+	})();
+</script>
+
+<!-- Canonical URL -->
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Primary Meta Tags -->
+<title>{title}</title>
+<meta name="description" content={description} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content={ogType} />
+<meta property="og:site_name" content={SITE_TITLE} />
+<meta property="og:url" content={Astro.url} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={imageURL} />
+{publishedTime && <meta property="article:published_time" content={publishedTime} />}
+{modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageURL} />

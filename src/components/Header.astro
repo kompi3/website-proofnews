@@ -1,0 +1,100 @@
+---
+import { SITE_TITLE } from '../consts';
+import HeaderLink from './HeaderLink.astro';
+---
+
+<header>
+	<nav>
+		<a href="/" class="brand">
+			<span class="brand-mark" aria-hidden="true">✓</span>
+			{SITE_TITLE}
+		</a>
+		<div class="internal-links">
+			<HeaderLink class="nav-link" href="/">Home</HeaderLink>
+			<HeaderLink class="nav-link" href="/blog">Blog</HeaderLink>
+			<HeaderLink class="nav-link" href="/about">About</HeaderLink>
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		position: sticky;
+		top: 0;
+		z-index: 50;
+		margin: 0;
+		padding: 0 1.5em;
+		background: rgba(253, 252, 248, 0.9);
+		backdrop-filter: blur(12px);
+		-webkit-backdrop-filter: blur(12px);
+		border-bottom: 1px solid var(--border);
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 1120px;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	.brand {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5em;
+		font-weight: 800;
+		font-size: 1.25rem;
+		letter-spacing: -0.01em;
+		color: var(--text);
+		text-decoration: none;
+		padding: 0.9em 0;
+	}
+	.brand:hover {
+		color: var(--text);
+	}
+	.brand-mark {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 1.7em;
+		height: 1.7em;
+		font-size: 1.1rem;
+		font-weight: 800;
+		color: #fff;
+		background: var(--accent);
+		border-radius: 50%;
+	}
+	.internal-links {
+		display: flex;
+		align-items: center;
+		gap: 0.25em;
+	}
+	nav :global(a.nav-link) {
+		padding: 0.9em 0.8em;
+		color: var(--muted);
+		font-weight: 600;
+		font-size: 1rem;
+		border-bottom: 3px solid transparent;
+		text-decoration: none;
+		transition:
+			color 0.15s ease,
+			border-color 0.15s ease;
+	}
+	nav :global(a.nav-link:hover) {
+		color: var(--text);
+	}
+	nav :global(a.nav-link.active) {
+		color: var(--accent);
+		border-bottom-color: var(--accent);
+	}
+	@media (max-width: 720px) {
+		header {
+			padding: 0 1em;
+		}
+		.brand {
+			font-size: 1.1rem;
+		}
+		nav :global(a.nav-link) {
+			padding: 0.9em 0.5em;
+			font-size: 0.95rem;
+		}
+	}
+</style>
