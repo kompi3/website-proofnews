@@ -11,11 +11,11 @@ Every child of a certain generation heard it across the dinner table: *finish yo
 The question on the table is simple. Do carrots improve your eyesight? The honest answer is more interesting than a yes or no. Carrots are genuinely important for vision, and in the right circumstances — a body starved of vitamin A — eating them can quite literally save someone's sight. But no amount of carrots will upgrade the vision you already have. That gap between a real benefit and an inflated claim is where a legend was born, and where the propaganda machine of wartime Britain did its finest work.
 
 <picture>
-<source srcset="/img/1465101162946-4377e57745c3-1000.avif" type="image/avif">
-<source srcset="/img/1465101162946-4377e57745c3-700.webp" type="image/webp">
-<img src="/img/1465101162946-4377e57745c3-700.webp" alt="Telescope pointed at the night sky, an illustration of human fascination with seeing further and sharper" width="1000" height="563" fetchpriority="high" decoding="async">
+<source srcset="/img/1512621776951-a57141f2eefd-1000.avif" type="image/avif">
+<source srcset="/img/1512621776951-a57141f2eefd-700.webp" type="image/webp">
+<img src="/img/1512621776951-a57141f2eefd-700.webp" alt="A healthy salad bowl with fresh vegetables" width="1000" height="563" fetchpriority="high" decoding="async">
 </picture>
-*Illustration: humanity's old dream of sharper vision — in the 1940s, Britain sold a vegetable as the answer.*
+*Carrots and leafy greens deliver vitamin A — but they won’t give you superhuman night vision. Image: Unsplash.*
 
 ## The Claim: A Vegetable for Super-Sight
 
@@ -38,11 +38,11 @@ The campaign served two home-front purposes at once. Lord Woolton, the minister 
 Did the Germans fall for it? Historians still debate it. John Stolarczyk, curator of the virtual World Carrot Museum, traced the story through files from the Imperial War Museum, the Mass Observation Archive, and the UK National Archives, and concluded that the Ministry of Information deliberately popularized the myth as a subterfuge operation. But Stolarczyk himself admitted he had no evidence the Germans bought it, beyond the fact that the use of carrots for eye health was already well ingrained in the German psyche and that there are apocryphal tales of the Germans feeding their own pilots carrots in response. What is certain is that the British public believed it. The cover story stayed in family advice and school lessons, while the radar part — declassified and familiar — faded from everyday memory. The propaganda, as one modern account put it, became one of the most successful health messages ever created: a wartime cover story designed to protect a military secret, repackaged as parental wisdom.
 
 <picture>
-<source srcset="/img/1462331940025-496dfbfc7564-1000.avif" type="image/avif">
-<source srcset="/img/1462331940025-496dfbfc7564-700.webp" type="image/webp">
-<img src="/img/1462331940025-496dfbfc7564-700.webp" alt="A telescope dome under a night sky, illustrating the secret airborne radar Britain hid behind the carrot story" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1505751172876-fa1923c5c528-1000.avif" type="image/avif">
+<source srcset="/img/1505751172876-fa1923c5c528-700.webp" type="image/webp">
+<img src="/img/1505751172876-fa1923c5c528-700.webp" alt="A stethoscope on a white surface" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: the secret the story protected — airborne interception radar that let RAF crews find bombers in total darkness.*
+*Ophthalmologists confirm: vitamin A prevents deficiency-related blindness, nothing more. Image: Unsplash.*
 
 ## What Vitamin A Actually Does in the Eye
 
@@ -55,11 +55,11 @@ The scale of that harm is what makes this story bigger than a vegetable myth. Vi
 Humans cannot manufacture vitamin A from scratch; it must come from the diet, either pre-formed (from animal foods and fortified milk or cereal) or as provitamin carotenoids like beta-carotene from plants. That is where the carrot earns its place: one of the most concentrated, cheapest, most widely available sources of beta-carotene on earth. The recommended daily intake for adults sits in the range of 700 to 900 micrograms of retinol activity equivalents — a quantity a modest serving of carrots covers comfortably.
 
 <picture>
-<source srcset="/img/1512621776951-a57141f2eefd-1000.avif" type="image/avif">
-<source srcset="/img/1512621776951-a57141f2eefd-700.webp" type="image/webp">
-<img src="/img/1512621776951-a57141f2eefd-700.webp" alt="A fresh salad bowl of vegetables, illustrating a diet rich in beta-carotene and other eye-supporting nutrients" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1576091160550-2173dba999ef-1000.avif" type="image/avif">
+<source srcset="/img/1576091160550-2173dba999ef-700.webp" type="image/webp">
+<img src="/img/1576091160550-2173dba999ef-700.webp" alt="Hands typing on a laptop beside a stethoscope" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: beta-carotene-rich foods like carrots, sweet potatoes, and leafy greens supply the vitamin A the retina needs.*
+*The “carrots improve eyesight” story began as wartime propaganda, not science. Image: Unsplash.*
 
 ## Where the Science and the Myth Part Ways
 
@@ -72,11 +72,11 @@ Eat far beyond your needs and the only upgrade you will notice is cosmetic: a ha
 It is also worth noting that carrots are not even the best vegetable for eyes on every measure. Dark leafy greens — spinach, kale, collard greens — carry more lutein and zeaxanthin, carotenoids concentrated in the macula that filter high-energy light and protect the retina, and evidence links them to slower progression of age-related macular degeneration. Sweet potatoes contain more vitamin A than carrots. Fruits supply vitamins C and E, which support ocular tissue as well. In other words, even the genuine nutritional claim is better phrased as "a balanced diet rich in produce protects your eyes" than as a carrot monarchy.
 
 <picture>
-<source srcset="/img/1505751172876-fa1923c5c528-1000.avif" type="image/avif">
-<source srcset="/img/1505751172876-fa1923c5c528-700.webp" type="image/webp">
-<img src="/img/1505751172876-fa1923c5c528-700.webp" alt="A stethoscope, illustrating the medical consensus that nutrition maintains but does not upgrade eyesight" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1594663653925-365bcbf7ef86-1000.avif" type="image/avif">
+<source srcset="/img/1594663653925-365bcbf7ef86-700.webp" type="image/webp">
+<img src="/img/1594663653925-365bcbf7ef86-700.webp" alt="A hand holding a phone showing a search engine" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: ophthalmologists agree — adequate nutrition maintains the eyes, but no food upgrades vision beyond its natural baseline.*
+*The myth persists in search results — the evidence tells a narrower story. Image: Unsplash.*
 
 ## The State of Eye-Nutrition Science in 2026
 
@@ -96,11 +96,5 @@ What keeps the verdict from being simply "True" is the ceiling. For people whose
 
 That is the shape of the legend: a true statement about nutrition, inflated by propaganda, repeated for eighty years until the inflation became invisible. Eat your carrots. They protect your eyes, and for a deficient child they can save sight itself. Just don't expect them to do what radar does. As Stolarczyk observed of the story's evolution, the message that carrots are good for your eyes gradually became distorted into the belief that they actively improve eyesight — and eight decades later, eye doctors are still untangling the two.
 
-<picture>
-<source srcset="/img/1518770660439-4636190af475-1000.avif" type="image/avif">
-<source srcset="/img/1518770660439-4636190af475-700.webp" type="image/webp">
-<img src="/img/1518770660439-4636190af475-700.webp" alt="Electronic equipment and circuitry, illustrating the wartime technology hidden behind the carrot cover story" width="1000" height="563" loading="lazy" decoding="async">
-</picture>
-*Illustration: the real secret behind Britain's nighttime victories — electronics, not vegetables.*
 
 The next time someone tells you to finish your carrots for your eyes, you can agree with them — and then tell them about the radar.

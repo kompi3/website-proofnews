@@ -108,11 +108,11 @@ Third, the gap between the slogan and reality is demoralizing in a very specific
 Finally, there is a subtle statistical illusion at work. When every study in this article reports that "benefits flatten" at some number below 10,000, it is easy to hear that as "10,000 is useless." It is not. The flattening of a curve is not a wall; it is diminishing returns. Ding's 2025 analysis found that moving from 7,000 to 10,000 steps was still associated with a further 10 percent reduction in all-cause mortality. If you enjoy hitting five digits — and plenty of active people do — there is no evidence that you should stop. The problem was never the number. The problem was the number's claim to be *the* number: the pass/fail line, the official dose, the thing your wrist congratulates you for. It isn't any of those. It never was.
 
 <picture>
-<source srcset="/img/1584036561566-baf8f5f1b144-1000.avif" type="image/avif">
-<source srcset="/img/1584036561566-baf8f5f1b144-700.webp" type="image/webp">
-<img src="/img/1584036561566-baf8f5f1b144-700.webp" alt="A stylized 3D illustration of microscopic virus particles" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1594663653925-365bcbf7ef86-1000.avif" type="image/avif">
+<source srcset="/img/1594663653925-365bcbf7ef86-700.webp" type="image/webp">
+<img src="/img/1594663653925-365bcbf7ef86-700.webp" alt="A hand holding a phone showing a search engine" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: six decades of public-health research have chipped away at the old slogan. Image: Unsplash.*
+*The 10,000-step figure spread through marketing and search results, not science. Image: Unsplash.*
 
 ## The Verdict
 

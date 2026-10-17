@@ -11,11 +11,11 @@ You have heard it a thousand times, and each time it sounded faintly thrilling. 
 There is just one problem. None of it is true. Not the percentage, not the dormant reserves, not the implication that somewhere inside your skull a sleeping genius is waiting to be unlocked. The claim has been examined for decades by psychologists and neuroscientists, and the evidence against it is, in the words of one Scientific American investigation, "overwhelming." But the myth's origins are genuinely interesting — a tangle of misquoted philosophers, misunderstood brain research, and one very influential book foreword — and the reasons it refuses to die tell us something important about how bad science goes viral. Let us open it up.
 
 <picture>
-<source srcset="/img/1451187580459-43490279c0fa-1000.avif" type="image/avif">
-<source srcset="/img/1451187580459-43490279c0fa-700.webp" type="image/webp">
-<img src="/img/1451187580459-43490279c0fa-700.webp" alt="Earth seen from space, a blue marble against blackness" width="1000" height="563" fetchpriority="high" decoding="async">
+<source srcset="/img/1559757175-5700dde675bc-1000.avif" type="image/avif">
+<source srcset="/img/1559757175-5700dde675bc-700.webp" type="image/webp">
+<img src="/img/1559757175-5700dde675bc-700.webp" alt="An anatomical model of the human brain beside a neuron model" width="1000" height="563" fetchpriority="high" decoding="async">
 </picture>
-*Illustration: Earth from space. Image: Unsplash.*
+*An anatomical brain model: imaging shows virtually all of the brain is active over a day — the 10% claim is a myth. Image: Unsplash.*
 
 ## The Claim
 
@@ -42,11 +42,11 @@ Penfield's name is an instructive case study in how the myth accretes credibilit
 That pattern is part of what drew the psychologist Barry Beyerstein to investigate the myth for Scientific American. Writing in a piece titled "Uncovering Brainscams," Beyerstein examined a family of popular misconceptions about the brain and found that the ten-percent claim, the most deeply entrenched of them all, had seductive appeal precisely because we would love to believe our brains harbor an enormous reservoir of untapped potential. Yet, as he documented, functional brain-imaging studies had consistently failed to turn up any region of the brain that is perpetually inactive — and research on brain-damaged patients showed that damage to almost any brain area produces at least some psychological deficit.
 
 <picture>
-<source srcset="/img/1517976487492-5750f3195933-1000.avif" type="image/avif">
-<source srcset="/img/1517976487492-5750f3195933-700.webp" type="image/webp">
-<img src="/img/1517976487492-5750f3195933-700.webp" alt="A starfield night sky glowing above dark hills" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1518770660439-4636190af475-1000.avif" type="image/avif">
+<source srcset="/img/1518770660439-4636190af475-700.webp" type="image/webp">
+<img src="/img/1518770660439-4636190af475-700.webp" alt="A close-up of a computer circuit board" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: the night sky. Image: Unsplash.*
+*Like a circuit, the brain has no large idle regions — damage anywhere has consequences. Image: Unsplash.*
 
 There is one more candidate origin, and it comes from inside neuroscience itself — or rather, from neuroscience's mistakes. Early in the history of brain research, investigators found that large regions of the cerebral cortex appeared "silent" under their crude instruments: stimulating them produced no obvious effect. To a casual observer, a silent region looks like a useless region. But modern measurement revealed that these areas are far from silent. They form what neuroscientists call the brain's "association cortex," which plays a vital function in connecting perceptions, thoughts, and emotions across diverse brain areas. The "silence" was an artifact of primitive tools, not an absence of function.
 
@@ -65,11 +65,11 @@ It is worth noting exactly what the scans do and do not show. You do not use eve
 There is also a telling counterpoint: "more brain activity" is not automatically better. Uncontrolled increases in neuronal activity can be harmful — seizures, for example, involve abnormal synchronized activity across neural networks. Human cognitive performance depends on efficient coordination and timing rather than simply turning everything on harder. The popular image of brainpower as a dimmer switch waiting to be cranked to maximum gets the biology exactly backwards.
 
 <picture>
-<source srcset="/img/1454789548928-9efd52dc4031-1000.avif" type="image/avif">
-<source srcset="/img/1454789548928-9efd52dc4031-700.webp" type="image/webp">
-<img src="/img/1454789548928-9efd52dc4031-700.webp" alt="Stars scattered across a deep night sky" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1505751172876-fa1923c5c528-1000.avif" type="image/avif">
+<source srcset="/img/1505751172876-fa1923c5c528-700.webp" type="image/webp">
+<img src="/img/1505751172876-fa1923c5c528-700.webp" alt="A stethoscope on a white surface" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: stars in a night sky. Image: Unsplash.*
+*Neurologists debunked the 10% myth decades ago; no brain region is expendable. Image: Unsplash.*
 
 ## The Case Against the Myth
 
@@ -86,11 +86,11 @@ Fourth, the cell census. The once-popular notion that the brain is mostly inert 
 Finally, there is the truncation theory: one plausible account holds that the myth began as a reasonable observation — that at any given moment we use only a small percentage of our brain — which was then truncated and misquoted into the claim that we use only 10 percent of our brain in total. A momentary snapshot was mistaken for a lifetime capacity.
 
 <picture>
-<source srcset="/img/1419242902214-272b3f66ee7a-1000.avif" type="image/avif">
-<source srcset="/img/1419242902214-272b3f66ee7a-700.webp" type="image/webp">
-<img src="/img/1419242902214-272b3f66ee7a-700.webp" alt="A dense field of stars across the night sky" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1576091160550-2173dba999ef-1000.avif" type="image/avif">
+<source srcset="/img/1576091160550-2173dba999ef-700.webp" type="image/webp">
+<img src="/img/1576091160550-2173dba999ef-700.webp" alt="Hands typing on a laptop beside a stethoscope" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: a dense starfield. Image: Unsplash.*
+*Modern neuroscience maps function across the whole brain, not a tenth of it. Image: Unsplash.*
 
 ## Why the Myth Refuses to Die
 
@@ -105,11 +105,11 @@ And then there is the myth's emotional design. It is a fantasy of untapped poten
 But the comforting twist is that the truth is more impressive than the fantasy. Your brain is not a warehouse with 90 percent of the shelves empty. It is an organ that burns a fifth of your energy, activates nearly every region over a single day, integrates perceptions and emotions across a vast association network, and never truly rests — even while you sleep. You do not have a dormant supercomputer in your head. You have something better: one that is already on.
 
 <picture>
-<source srcset="/img/1502134249126-9f3755a50d78-1000.avif" type="image/avif">
-<source srcset="/img/1502134249126-9f3755a50d78-700.webp" type="image/webp">
-<img src="/img/1502134249126-9f3755a50d78-700.webp" alt="The Milky Way stretching across a dark sky" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1594663653925-365bcbf7ef86-1000.avif" type="image/avif">
+<source srcset="/img/1594663653925-365bcbf7ef86-700.webp" type="image/webp">
+<img src="/img/1594663653925-365bcbf7ef86-700.webp" alt="A hand holding a phone showing a search engine" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: the Milky Way at night. Image: Unsplash.*
+*The myth survives online, but a quick check of the evidence settles it. Image: Unsplash.*
 
 ## The Verdict
 

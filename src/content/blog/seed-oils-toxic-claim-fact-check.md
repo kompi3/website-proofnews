@@ -105,11 +105,11 @@ Meanwhile, the scare has had real-world consequences regardless of the evidence.
 There is a legitimate question buried in all of this — whether the modern food environment, saturated with cheap refined oils, nudges people toward overconsumption. But the claim on the table is much stronger than that, and it deserves to be graded on its own terms.
 
 <picture>
-<source srcset="/img/1584036561566-baf8f5f1b144-1000.avif" type="image/avif">
-<source srcset="/img/1584036561566-baf8f5f1b144-700.webp" type="image/webp">
-<img src="/img/1584036561566-baf8f5f1b144-700.webp" alt="Illustration representing microscopic biological processes" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1594663653925-365bcbf7ef86-1000.avif" type="image/avif">
+<source srcset="/img/1594663653925-365bcbf7ef86-700.webp" type="image/webp">
+<img src="/img/1594663653925-365bcbf7ef86-700.webp" alt="A hand holding a phone showing a search engine" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: scientists continue to study how diet interacts with the body's immune and inflammatory systems. Image: Unsplash.*
+*Seed-oil fears spread through search results and social feeds — the trials tell a different story. Image: Unsplash.*
 
 ## The Grain of Truth: Where Legitimate Caveats Live
 

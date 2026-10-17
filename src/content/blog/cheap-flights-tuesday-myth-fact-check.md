@@ -91,11 +91,11 @@ Other levers the research supports: price tracking tools and fare alerts, which 
 What the research does not support is much of the folk wisdom that travels alongside the Tuesday tip. Booking at midnight does not reliably yield savings. Clearing cookies or browsing in incognito mode does not produce lower fares — the fares come from the airline's inventory system, not from a profile of your browsing. And waiting for a last-minute miracle is, per a Kayak spokesperson quoted by Travel + Leisure, a strategy in decline: there are fewer last-minute deals than in years past.
 
 <picture>
-<source srcset="/img/1454789548928-9efd52dc4031-1000.avif" type="image/avif">
-<source srcset="/img/1454789548928-9efd52dc4031-700.webp" type="image/webp">
-<img src="/img/1454789548928-9efd52dc4031-700.webp" alt="Rocket lifting off, illustrating how fast fare prices can climb" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1526374965328-7f61d4dc18c5-1000.avif" type="image/avif">
+<source srcset="/img/1526374965328-7f61d4dc18c5-700.webp" type="image/webp">
+<img src="/img/1526374965328-7f61d4dc18c5-700.webp" alt="Green code cascading on a dark screen, illustrating airline pricing algorithms" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: wait too long and fares can climb fast — the final-week booking penalty is real, unlike the Tuesday rule.*
+*Airline pricing algorithms adjust fares constantly — the Tuesday myth misunderstands how they work. Image: Unsplash.*
 
 ## Why the myth is so hard to kill
 

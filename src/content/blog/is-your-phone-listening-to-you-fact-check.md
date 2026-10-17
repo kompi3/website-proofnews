@@ -13,11 +13,11 @@ It is a seductive theory because it feels like the only explanation that fits. B
 This is the story of the evidence: the largest academic test ever conducted on the claim, the marketing company that claimed to sell exactly this surveillance (and was fined for lying about it), the psychology that makes coincidence feel like proof, and the genuinely creepy things your phone is doing instead.
 
 <picture>
-<source srcset="/img/1465101162946-4377e57745c3-1000.avif" type="image/avif">
-<source srcset="/img/1465101162946-4377e57745c3-700.webp" type="image/webp">
-<img src="/img/1465101162946-4377e57745c3-700.webp" alt="A dense field of stars across the night sky" width="1000" height="563" fetchpriority="high" decoding="async">
+<source srcset="/img/1511707171634-5f897ff02aa9-1000.avif" type="image/avif">
+<source srcset="/img/1511707171634-5f897ff02aa9-700.webp" type="image/webp">
+<img src="/img/1511707171634-5f897ff02aa9-700.webp" alt="A hand holding a smartphone" width="1000" height="563" fetchpriority="high" decoding="async">
 </picture>
-*Illustration. Image: Unsplash.*
+*Your phone’s microphone is rarely the culprit — researchers found the real ad-targeting pipeline runs on metadata. Image: Unsplash.*
 
 ## A belief most people share
 
@@ -109,11 +109,11 @@ If the listening theory makes you uneasy, the good news is that the most effecti
 6. **Remember the broker economy.** Much of your profile comes from offline purchases, loyalty programs, and data brokers. You cannot fully opt out, but data-broker opt-out services and privacy laws in some jurisdictions give you deletion rights worth using.
 
 <picture>
-<source srcset="/img/1502134249126-9f3755a50d78-1000.avif" type="image/avif">
-<source srcset="/img/1502134249126-9f3755a50d78-700.webp" type="image/webp">
-<img src="/img/1502134249126-9f3755a50d78-700.webp" alt="The glowing core of the Milky Way galaxy scattered with stars" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1594663653925-365bcbf7ef86-1000.avif" type="image/avif">
+<source srcset="/img/1594663653925-365bcbf7ef86-700.webp" type="image/webp">
+<img src="/img/1594663653925-365bcbf7ef86-700.webp" alt="A hand holding a phone showing a search engine" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration. Image: Unsplash.*
+*Searches, location history, and browsing behavior explain most “it heard me” moments. Image: Unsplash.*
 
 ## The Verdict
 
@@ -126,11 +126,11 @@ We rate this "Unproven" rather than "False" for one reason of intellectual hones
 But do not mistake that for comfort. The real verdict of the research is more alarming than the myth: your phone does not need to listen, because it already knows. Location trails, purchase records, browsing history, social-graph inference, device fingerprinting, and a multi-billion-dollar data-broker industry combine into profiles so precise that ads can predict your desires before you have finished saying them out loud. The microphone was never the main surveillance device in your pocket. The main surveillance device is everything else.
 
 <picture>
-<source srcset="/img/1419242902214-272b3f66ee7a-1000.avif" type="image/avif">
-<source srcset="/img/1419242902214-272b3f66ee7a-700.webp" type="image/webp">
-<img src="/img/1419242902214-272b3f66ee7a-700.webp" alt="A shooting star streaking across a purple night sky above mountains" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1518770660439-4636190af475-1000.avif" type="image/avif">
+<source srcset="/img/1518770660439-4636190af475-700.webp" type="image/webp">
+<img src="/img/1518770660439-4636190af475-700.webp" alt="A close-up of a computer circuit board" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration. Image: Unsplash.*
+*App permissions and SDKs harvest far more data than any microphone ever could. Image: Unsplash.*
 
 ## The bottom line
 
@@ -139,10 +139,10 @@ The next time an ad seems to read your mind, resist the simplest explanation and
 That is a harder story to tell at dinner. But it is the one the evidence supports — and it points at real problems you can actually do something about, starting with the permissions screen on your phone tonight.
 
 <picture>
-<source srcset="/img/1462331940025-496dfbfc7564-1000.avif" type="image/avif">
-<source srcset="/img/1462331940025-496dfbfc7564-700.webp" type="image/webp">
-<img src="/img/1462331940025-496dfbfc7564-700.webp" alt="A blue nebula glowing in deep space" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1550751827-4bd374c3f58b-1000.avif" type="image/avif">
+<source srcset="/img/1550751827-4bd374c3f58b-700.webp" type="image/webp">
+<img src="/img/1550751827-4bd374c3f58b-700.webp" alt="A padlock on a circuit board symbolizing cybersecurity" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration. Image: Unsplash.*
+*Real protection means auditing app permissions, not covering the microphone. Image: Unsplash.*
 
 *Sources and further reading: the Northeastern University study (Pan, Ren, Lindorfer, Wilson, Choffnes, 2018) via reporting by Gizmodo, Business Insider, and BGR; the FTC's August 2026 settlement with Cox Media Group, MindSift, and 1010 Digital Works; 404 Media's December 2023 and August 2024 reporting on the "Active Listening" pitch deck; Kaspersky's research center analysis; the Electronic Frontier Foundation; and the September 2026 Vibe/Pollfish survey on American attitudes toward ad targeting.*

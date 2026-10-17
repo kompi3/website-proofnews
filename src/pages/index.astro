@@ -17,33 +17,35 @@ const categories = [
 	{
 		name: 'Health',
 		desc: 'Wellness myths & medical claims, checked',
-		img: '1446776811953-b23d57bd21aa',
+		img: '1505751172876-fa1923c5c528',
 	},
 	{
 		name: 'Technology',
 		desc: 'AI rumors, gadgets & digital scares',
-		img: '1517976487492-5750f3195933',
+		img: '1518770660439-4636190af475',
 	},
 	{
 		name: 'Science',
 		desc: 'Space myths & science misconceptions',
-		img: '1447433589675-4aaa569f3e05',
+		img: '1451187580459-43490279c0fa',
 	},
 	{
 		name: 'Viral Claims',
 		desc: 'Trending posts, put to the test',
-		img: '1465101162946-4377e57745c3',
+		img: '1511707171634-5f897ff02aa9',
 	},
 ];
 
-const thumbs = [
-	'1447433589675-4aaa569f3e05',
-	'1465101162946-4377e57745c3',
-	'1446776811953-b23d57bd21aa',
-	'1502134249126-9f3755a50d78',
-	'1419242902214-272b3f66ee7a',
-	'1462331940025-496dfbfc7564',
-];
+const thumbsByCat: Record<string, string[]> = {
+	Health: ['1505751172876-fa1923c5c528', '1512621776951-a57141f2eefd', '1576091160550-2173dba999ef'],
+	Technology: ['1518770660439-4636190af475', '1511707171634-5f897ff02aa9', '1677442136019-21780ecad995'],
+	Science: ['1451187580459-43490279c0fa', '1462331940025-496dfbfc7564', '1502134249126-9f3755a50d78'],
+	'Viral Claims': ['1594663653925-365bcbf7ef86', '1526304640581-d334cdbbf45e', '1526374965328-7f61d4dc18c5'],
+};
+const thumbFor = (post: (typeof posts)[number], i: number) => {
+	const list = thumbsByCat[post.data.category] ?? Object.values(thumbsByCat).flat();
+	return list[i % list.length];
+};
 
 const verdictOrder: Verdict[] = ['True', 'Mostly True', 'Misleading', 'False', 'Unproven'];
 ---
@@ -332,7 +334,7 @@ const verdictOrder: Verdict[] = ['True', 'Mostly True', 'Misleading', 'False', '
 						latest.map((post, i) => (
 							<article class="card article-card">
 								<a href={`/blog/${post.id}/`} aria-label={post.data.title}>
-									<ResponsiveImage id={thumbs[i % thumbs.length]} alt="" loading="lazy" />
+									<ResponsiveImage id={thumbFor(post, i)} alt="" loading="lazy" />
 								</a>
 								<div class="card-body">
 									<div class="card-top">

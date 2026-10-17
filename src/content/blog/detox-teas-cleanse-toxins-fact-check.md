@@ -96,12 +96,6 @@ Does any of this enhance the liver or kidneys? No. As clinical explainers of the
 
 Worse, chronic stimulant-laxative use can damage the very machinery it abuses. Chronic use disrupts colonic motility: a 2021 study in the journal *Gastroenterology* found that individuals using senna-based teas for twelve weeks or more developed measurable reductions in colonic nerve density and delayed transit time — leading to long-term constipation once the product was discontinued. The colon can, in effect, forget how to work on its own, a condition sometimes called "cathartic colon." Water loss plus electrolyte shifts can also cause low potassium, bringing muscle cramps, fatigue, and — in severe cases — cardiac rhythm problems.
 
-<picture>
-<source srcset="/img/1584036561566-baf8f5f1b144-1000.avif" type="image/avif">
-<source srcset="/img/1584036561566-baf8f5f1b144-700.webp" type="image/webp">
-<img src="/img/1584036561566-baf8f5f1b144-700.webp" alt="Microscopic illustration of particles in the bloodstream" width="1000" height="563" loading="lazy" decoding="async">
-</picture>
-*Illustration. Image: Unsplash.*
 
 ## The risks nobody puts on the label
 
@@ -124,11 +118,11 @@ Blumenthal argued that the potential dangers of the teas come from the senna lea
 Regulators have not been entirely silent. The FDA and FTC have taken enforcement action against companies selling detox products that contained hidden ingredients or made false health claims. The pattern of intervention suggests that the industry's problem is not just bad science but bad faith: products that promise medical-grade cleansing while relying on laxatives, stimulants, and undisclosed compounds.
 
 <picture>
-<source srcset="/img/1526304640581-d334cdbbf45e-1000.avif" type="image/avif">
-<source srcset="/img/1526304640581-d334cdbbf45e-700.webp" type="image/webp">
-<img src="/img/1526304640581-d334cdbbf45e-700.webp" alt="Stacks of US dollar bills representing the detox industry's revenue" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1594663653925-365bcbf7ef86-1000.avif" type="image/avif">
+<source srcset="/img/1594663653925-365bcbf7ef86-700.webp" type="image/webp">
+<img src="/img/1594663653925-365bcbf7ef86-700.webp" alt="A hand holding a phone showing a search engine" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration. Image: Unsplash.*
+*Detox marketing thrives on search results and social feeds — the physiology tells a different story. Image: Unsplash.*
 
 ## Why it feels like it works
 

@@ -13,11 +13,11 @@ These claims are not fringe whispers anymore. They have moved from comment threa
 The good news for the fact-checker is that this is one of the rare health debates where the evidence includes something gold-standard: a randomized controlled trial, run over years, in the highest-skin-cancer region on Earth. A separate randomized trial measured whether daily sunscreen actually keeps skin looking younger. And both trials produced answers. Let us walk through what the research really found — including the honest limitations — before delivering the verdict.
 
 <picture>
-<source srcset="/img/1419242902214-272b3f66ee7a-1000.avif" type="image/avif">
-<source srcset="/img/1419242902214-272b3f66ee7a-700.webp" type="image/webp">
-<img src="/img/1419242902214-272b3f66ee7a-700.webp" alt="A starfield glittering over dark skies, an illustration for the sun's invisible rays" width="1000" height="563" fetchpriority="high" decoding="async">
+<source srcset="/img/1520942702018-0862200e6873-1000.avif" type="image/avif">
+<source srcset="/img/1520942702018-0862200e6873-700.webp" type="image/webp">
+<img src="/img/1520942702018-0862200e6873-700.webp" alt="A sunny beach with turquoise water and white sand" width="1000" height="563" fetchpriority="high" decoding="async">
 </picture>
-*Illustration: the sun's ultraviolet rays are invisible but they reach us through clear skies — the very light a landmark trial set out to study. Image: Unsplash.*
+*A sunny beach — exactly the setting where sunscreen’s protective effect was proven in landmark trials. Image: Unsplash.*
 
 ## The Viral Claim We Are Checking
 
@@ -48,11 +48,11 @@ Longer follow-up showed the same pattern. A review of the evidence reported a su
 That is not correlation. That is cause and effect, demonstrated by randomization, measured in actual tumors, and confirmed across three separate follow-up analyses.
 
 <picture>
-<source srcset="/img/1446776811953-b23d57bd21aa-1000.avif" type="image/avif">
-<source srcset="/img/1446776811953-b23d57bd21aa-700.webp" type="image/webp">
-<img src="/img/1446776811953-b23d57bd21aa-700.webp" alt="The moon in a dark sky, an illustration for the invisible ultraviolet light we cannot see" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1505751172876-fa1923c5c528-1000.avif" type="image/avif">
+<source srcset="/img/1505751172876-fa1923c5c528-700.webp" type="image/webp">
+<img src="/img/1505751172876-fa1923c5c528-700.webp" alt="A stethoscope on a white surface" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: ultraviolet radiation is invisible to our eyes — but its effects on skin are measurable, and measurable is what matters. Image: Unsplash.*
+*Dermatologists point to randomized trials, not anecdotes, when recommending daily sunscreen. Image: Unsplash.*
 
 ## Skin Cancer, Part Two: Melanoma
 
@@ -87,11 +87,11 @@ Lead researcher Adèle Green summarized the finding in terms the beauty industry
 A note on the beta-carotene half of the study: the antioxidant supplement showed no overall effect on skin aging. This matters because it demonstrates the trial could distinguish a real effect (sunscreen) from a null one (beta-carotene) within the same design — the method was sensitive enough to find protection where it existed and honest enough to report nothing where it did not.
 
 <picture>
-<source srcset="/img/1454789548928-9efd52dc4031-1000.avif" type="image/avif">
-<source srcset="/img/1454789548928-9efd52dc4031-700.webp" type="image/webp">
-<img src="/img/1454789548928-9efd52dc4031-700.webp" alt="A starry night sky, an illustration for the long timescales over which skin damage accumulates" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1576091160550-2173dba999ef-1000.avif" type="image/avif">
+<source srcset="/img/1576091160550-2173dba999ef-700.webp" type="image/webp">
+<img src="/img/1576091160550-2173dba999ef-700.webp" alt="Hands typing on a laptop beside a stethoscope" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: skin damage accumulates over years, not days — which is why the decade-long follow-ups matter more than any single snapshot. Image: Unsplash.*
+*Decades of follow-up data show sunscreen slows photoaging and cuts skin-cancer risk. Image: Unsplash.*
 
 ## What the Dermatologists Actually Recommend
 
@@ -116,11 +116,11 @@ This is exactly the bias the Nambour researchers eliminated by randomizing. When
 There is also a behavioral trap the researchers identified: sunscreen can encourage riskier sun behavior. People apply it in the morning, feel protected, skip reapplication, and stay out far longer than they otherwise would. The sunscreen did not cause their cancer; the marathon sunbathing it enabled did. That is an argument for applying sunscreen correctly — generously, and every two hours — not an argument against applying it at all.
 
 <picture>
-<source srcset="/img/1465101162946-4377e57745c3-1000.avif" type="image/avif">
-<source srcset="/img/1465101162946-4377e57745c3-700.webp" type="image/webp">
-<img src="/img/1465101162946-4377e57745c3-700.webp" alt="Stars above a mountain silhouette, an illustration for looking at the evidence clearly" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1594663653925-365bcbf7ef86-1000.avif" type="image/avif">
+<source srcset="/img/1594663653925-365bcbf7ef86-700.webp" type="image/webp">
+<img src="/img/1594663653925-365bcbf7ef86-700.webp" alt="A hand holding a phone showing a search engine" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: when observational noise is stripped away by randomization, the protective signal is unmistakable. Image: Unsplash.*
+*Viral sunscreen fears spread online — but the trial evidence points the other way. Image: Unsplash.*
 
 ## What Sunscreen Cannot Do
 

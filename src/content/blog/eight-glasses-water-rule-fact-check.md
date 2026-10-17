@@ -11,11 +11,11 @@ You have heard it a thousand times: drink eight 8-ounce glasses of water a day. 
 It sounds like science. It sounds official, measured, and precise. So here is the awkward question that started our investigation: who actually said this, and on the basis of what evidence? When a kidney physiologist named Heinz Valtin went looking for the answer — really looking, combing through databases, old literature, and interviews with nutritionists who specialized in thirst — he came back empty-handed. There was, in his words, no scientific origin to be found. The world's most famous hydration rule, it turns out, was built on a misreading, inflated by marketing, and sustained by repetition. Let us trace what actually happened.
 
 <picture>
-<source srcset="/img/1446776811953-b23d57bd21aa-1000.avif" type="image/avif">
-<source srcset="/img/1446776811953-b23d57bd21aa-700.webp" type="image/webp">
-<img src="/img/1446776811953-b23d57bd21aa-700.webp" alt="Earth's blue oceans and swirling clouds seen from space" width="1000" height="563" fetchpriority="high" decoding="async">
+<source srcset="/img/1534616042650-80f5c9b61f09-1000.avif" type="image/avif">
+<source srcset="/img/1534616042650-80f5c9b61f09-700.webp" type="image/webp">
+<img src="/img/1534616042650-80f5c9b61f09-700.webp" alt="A clear glass of drinking water on a white background" width="1000" height="563" fetchpriority="high" decoding="async">
 </picture>
-*Earth, the original water world. Image: Unsplash.*
+*A glass of water — the 8x8 rule says you need eight of these a day, but the evidence says otherwise. Image: Unsplash.*
 
 ## The Viral Claim
 
@@ -52,11 +52,11 @@ The review also demolished two of the rule's satellite myths. First, caffeinated
 He did add careful caveats, which the myth conveniently ignores: his conclusion applied to healthy adults in a temperate climate leading a largely sedentary life — precisely the population the rule claims to cover. Large fluid intakes, equal to or greater than 8x8, are indeed advisable for the treatment or prevention of some diseases and are certainly called for in special circumstances, such as vigorous work and exercise, especially in hot climates.
 
 <picture>
-<source srcset="/img/1462331940025-496dfbfc7564-1000.avif" type="image/avif">
-<source srcset="/img/1462331940025-496dfbfc7564-700.webp" type="image/webp">
-<img src="/img/1462331940025-496dfbfc7564-700.webp" alt="A blue nebula glowing in deep space" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1505751172876-fa1923c5c528-1000.avif" type="image/avif">
+<source srcset="/img/1505751172876-fa1923c5c528-700.webp" type="image/webp">
+<img src="/img/1505751172876-fa1923c5c528-700.webp" alt="A stethoscope on a white surface" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Even in the driest environments, water moves constantly through the body — the question is how much. Image: Unsplash.*
+*Doctors and researchers agree: thirst, not a fixed number, is the body’s hydration signal. Image: Unsplash.*
 
 ## The Thirst Debate: Is Your Body Already Smarter Than the Rule?
 
@@ -99,11 +99,11 @@ Harvard-affiliated researchers at McLean Hospital added a deeper layer to the st
 The lesson for the everyday drinker is not that a glass of water will kill you — healthy kidneys can handle large volumes of water spread across a day. It is that the myth's "more is better" logic has no ceiling built in, and at the extreme, that logic has killed people. Hydration guidance needs an upper bound, not just a lower one. Sports drinks do not fully protect against it either: as Houston Methodist's guidance notes, they are still mostly water, so you can overhydrate on them too.
 
 <picture>
-<source srcset="/img/1419242902214-272b3f66ee7a-1000.avif" type="image/avif">
-<source srcset="/img/1419242902214-272b3f66ee7a-700.webp" type="image/webp">
-<img src="/img/1419242902214-272b3f66ee7a-700.webp" alt="A shooting star streaking across a purple night sky above mountains" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1512621776951-a57141f2eefd-1000.avif" type="image/avif">
+<source srcset="/img/1512621776951-a57141f2eefd-700.webp" type="image/webp">
+<img src="/img/1512621776951-a57141f2eefd-700.webp" alt="A healthy salad bowl with fresh vegetables" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*An old rule, half-remembered: the 8x8 advice is a misquote with a very long tail. Image: Unsplash.*
+*Roughly a fifth of daily water intake comes from food, especially fruits and vegetables. Image: Unsplash.*
 
 ## Who Profits From Your Thirst?
 
@@ -156,11 +156,11 @@ The claim deserves its "misleading" rating rather than a flat "false" because it
 So the next time someone tells you that you must hit your eight glasses, you can answer with the question nobody could answer for eighty years: says who? The honest answer, it turns out, is nobody — just a sentence from 1945, cut in half, repeated until it sounded like science.
 
 <picture>
-<source srcset="/img/1502134249126-9f3755a50d78-1000.avif" type="image/avif">
-<source srcset="/img/1502134249126-9f3755a50d78-700.webp" type="image/webp">
-<img src="/img/1502134249126-9f3755a50d78-700.webp" alt="The glowing core of the Milky Way galaxy scattered with stars" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1576091160550-2173dba999ef-1000.avif" type="image/avif">
+<source srcset="/img/1576091160550-2173dba999ef-700.webp" type="image/webp">
+<img src="/img/1576091160550-2173dba999ef-700.webp" alt="Hands typing on a laptop beside a stethoscope" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Billions of stars, one rule debunked: trust your body, not a number from 1945. Image: Unsplash.*
+*Modern hydration guidance is personalized — age, activity, and climate matter more than any single number. Image: Unsplash.*
 
 ---
 

@@ -102,11 +102,11 @@ Fourth, the heavy metals. Consumer Reports scientists tested 28 popular dark cho
 Fifth, and finally, the funding footnote from earlier deserves its place in any verdict. Mars supplied the capsules for COSMOS and funded the Kuna follow-up research. When the largest beneficiary of a health claim is also the largest funder of the science behind it, the responsible reader adjusts their confidence accordingly — not to zero, because the trial design was genuinely rigorous, but downward.
 
 <picture>
-<source srcset="/img/1526304640581-d334cdbbf45e-1000.avif" type="image/avif">
-<source srcset="/img/1526304640581-d334cdbbf45e-700.webp" type="image/webp">
-<img src="/img/1526304640581-d334cdbbf45e-700.webp" alt="Stacks of US dollar bills, symbolizing the cost of a health habit" width="1000" height="563" loading="lazy" decoding="async">
+<source srcset="/img/1594663653925-365bcbf7ef86-1000.avif" type="image/avif">
+<source srcset="/img/1594663653925-365bcbf7ef86-700.webp" type="image/webp">
+<img src="/img/1594663653925-365bcbf7ef86-700.webp" alt="A hand holding a phone showing a search engine" width="1000" height="563" loading="lazy" decoding="async">
 </picture>
-*Illustration: every health habit has a price — chocolate's is measured in calories, sugar, and fat. Image: Unsplash.*
+*Health claims about chocolate spread fast online — the trial data tells a more careful story. Image: Unsplash.*
 
 ## What Cardiologists Actually Say
 
