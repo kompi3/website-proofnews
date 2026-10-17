@@ -311,7 +311,7 @@ const verdictOrder: Verdict[] = ['True', 'Mostly True', 'Misleading', 'False', '
 					{
 						categories.map((c) => (
 							<a class="cat-card" href="/blog">
-								<ResponsiveImage id={c.img} alt="" loading="lazy" />
+								<ResponsiveImage id={c.img} alt={`${c.name}: ${c.desc}`} loading="lazy" />
 								<span class="cat-label">
 									<strong>{c.name}</strong>
 									<span>{c.desc}</span>
@@ -334,7 +334,7 @@ const verdictOrder: Verdict[] = ['True', 'Mostly True', 'Misleading', 'False', '
 						latest.map((post, i) => (
 							<article class="card article-card">
 								<a href={`/blog/${post.id}/`} aria-label={post.data.title}>
-									<ResponsiveImage id={thumbFor(post, i)} alt="" loading="lazy" />
+									<ResponsiveImage id={thumbFor(post, i)} alt={post.data.title} loading="lazy" />
 								</a>
 								<div class="card-body">
 									<div class="card-top">

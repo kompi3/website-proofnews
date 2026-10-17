@@ -110,7 +110,7 @@ const thumbFor = (post: (typeof posts)[number], i: number) => {
 							<li>
 								<article class="card">
 									<a href={`/blog/${post.id}/`} aria-label={post.data.title}>
-										<ResponsiveImage id={thumbFor(post, i)} alt="" loading="lazy" />
+										<ResponsiveImage id={thumbFor(post, i)} alt={post.data.title} loading="lazy" />
 									</a>
 									<div class="card-body">
 										<div class="card-top">
