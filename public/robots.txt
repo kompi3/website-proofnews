@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ProofNews.biz.id/sitemap-index.xml

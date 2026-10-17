@@ -1,0 +1,354 @@
+/*
+  ProofNews theme — light, editorial, fact-check identity.
+  Warm paper background, dark ink text, deep green "verified" accent.
+  Headlines use a system serif stack (zero webfont cost); body text uses
+  Atkinson Hyperlegible via Fontsource (imported in BaseHead.astro).
+ */
+
+:root {
+	--bg: #fdfcf8;
+	--bg-soft: #f5f2e9;
+	--surface: #ffffff;
+	--surface-2: #f0ece0;
+	--text: #1c2430;
+	--muted: #5b6472;
+	--accent: #166534;
+	--accent-hover: #15803d;
+	--accent-soft: #e7f4ec;
+	--link: #1d4ed8;
+	--border: rgba(28, 36, 48, 0.14);
+	--serif: Georgia, 'Times New Roman', 'Nimbus Roman', serif;
+	--shadow: 0 10px 30px rgba(28, 36, 48, 0.1);
+	--radius: 14px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background: var(--bg);
+	color: var(--text);
+	font-size: 19px;
+	line-height: 1.7;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	-webkit-font-smoothing: antialiased;
+}
+
+main {
+	width: 720px;
+	max-width: calc(100% - 2em);
+	margin: auto;
+	padding: 3em 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 0.5rem 0;
+	color: var(--text);
+	line-height: 1.15;
+	letter-spacing: -0.01em;
+	font-family: var(--serif);
+	font-weight: 700;
+}
+h1 {
+	font-size: 2.9em;
+}
+h2 {
+	font-size: 2.1em;
+}
+h3 {
+	font-size: 1.6em;
+}
+h4 {
+	font-size: 1.3em;
+}
+h5 {
+	font-size: 1.12em;
+}
+
+/* Italic serif accent for emphasized headline words */
+h1 em,
+h2 em,
+.accent-serif {
+	font-style: italic;
+	font-weight: 400;
+	color: var(--accent);
+}
+
+.eyebrow {
+	display: inline-block;
+	font-size: 0.8rem;
+	font-weight: 700;
+	letter-spacing: 0.22em;
+	text-transform: uppercase;
+	color: var(--accent);
+	margin-bottom: 1rem;
+	font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
+}
+
+strong,
+b {
+	font-weight: 700;
+}
+a {
+	color: var(--link);
+	text-decoration: none;
+}
+a:hover {
+	color: var(--accent);
+}
+p {
+	margin-bottom: 1em;
+	color: var(--muted);
+}
+.prose p {
+	margin-bottom: 1.5em;
+}
+
+/* Buttons */
+.btn {
+	display: inline-block;
+	padding: 0.85em 1.8em;
+	border-radius: 999px;
+	font-weight: 700;
+	font-size: 1rem;
+	text-decoration: none;
+	transition:
+		transform 0.15s ease,
+		background 0.15s ease,
+		color 0.15s ease;
+	border: 1px solid transparent;
+	cursor: pointer;
+	font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
+}
+.btn-primary {
+	background: var(--accent);
+	color: #ffffff;
+}
+.btn-primary:hover {
+	background: var(--accent-hover);
+	color: #ffffff;
+	transform: translateY(-2px);
+}
+.btn-ghost {
+	border-color: var(--border);
+	color: var(--text);
+}
+.btn-ghost:hover {
+	border-color: var(--accent);
+	color: var(--accent);
+}
+
+/* Cards */
+.card {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	overflow: hidden;
+	transition:
+		transform 0.2s ease,
+		border-color 0.2s ease,
+		box-shadow 0.2s ease;
+}
+.card:hover {
+	transform: translateY(-4px);
+	border-color: rgba(22, 101, 52, 0.45);
+	box-shadow: var(--shadow);
+}
+.card img {
+	display: block;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+}
+.card picture {
+	display: block;
+}
+.card-body {
+	padding: 1.25em 1.4em 1.5em;
+}
+.card-body h3,
+.card-body h4 {
+	margin-bottom: 0.4em;
+}
+.card-body p {
+	font-size: 0.95rem;
+	margin-bottom: 0.8em;
+}
+.card-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35em;
+	font-weight: 700;
+	font-size: 0.95rem;
+	color: var(--accent);
+	font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
+}
+.card-link:hover {
+	color: var(--accent-hover);
+}
+
+/* Verdict badges — shared by cards, articles, and the legend */
+.verdict-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4em;
+	font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
+	font-size: 0.78rem;
+	font-weight: 800;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 999px;
+	padding: 0.35em 1em;
+	line-height: 1.4;
+}
+.verdict-badge .dot {
+	width: 0.55em;
+	height: 0.55em;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.85);
+	flex: none;
+}
+
+/* Section scaffolding */
+.section {
+	padding: 4.5em 1em;
+}
+.section-inner {
+	width: 1120px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.section-head {
+	text-align: center;
+	max-width: 720px;
+	margin: 0 auto 2.75em;
+}
+.section-head h2 {
+	font-size: 2.5em;
+	margin-bottom: 0.35em;
+}
+.section-head p {
+	font-size: 1.1rem;
+}
+
+/* Subtle paper texture for the hero */
+.paper-grain {
+	position: relative;
+	overflow: hidden;
+	background:
+		radial-gradient(900px 380px at 50% -10%, rgba(22, 101, 52, 0.08), transparent),
+		var(--bg);
+}
+
+textarea {
+	width: 100%;
+	font-size: 16px;
+}
+input {
+	font-size: 16px;
+}
+table {
+	width: 100%;
+	display: block;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	border-collapse: collapse;
+}
+th,
+td {
+	padding: 0.6em 1em;
+	border: 1px solid var(--border);
+	text-align: left;
+}
+th {
+	background: var(--surface-2);
+}
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+code {
+	padding: 2px 6px;
+	background-color: var(--surface-2);
+	border: 1px solid var(--border);
+	border-radius: 6px;
+	font-size: 0.9em;
+}
+pre {
+	padding: 1.5em;
+	border-radius: 12px;
+	background: #1c2430;
+	color: #eef2f9;
+	border: 1px solid var(--border);
+	overflow-x: auto;
+	max-width: 100%;
+}
+pre > code {
+	all: unset;
+}
+blockquote {
+	border-left: 4px solid var(--accent);
+	padding: 0 0 0 20px;
+	margin: 0;
+	font-size: 1.25em;
+	color: var(--text);
+}
+hr {
+	border: none;
+	border-top: 1px solid var(--border);
+}
+
+@media (max-width: 720px) {
+	body {
+		font-size: 17px;
+	}
+	main {
+		padding: 1em;
+	}
+	h1 {
+		font-size: 2.05em;
+	}
+	h2 {
+		font-size: 1.65em;
+	}
+	.section {
+		padding: 3em 1em;
+	}
+	.section-head h2 {
+		font-size: 1.85em;
+	}
+	blockquote {
+		font-size: 1.12em;
+	}
+}
+
+.sr-only {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	white-space: nowrap;
+}
