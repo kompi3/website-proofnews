@@ -1,6 +1,6 @@
 ---
 title: "No, Glass Is Not a Slow-Moving Liquid: Why Old Windows Are 'Thicker at the Bottom'"
-description: "The story goes that centuries-old windowpanes are thicker at the bottom because glass slowly flows downward like a liquid in slow motion. Materials scientists at Corning, the Corning Museum of Glass, and universities say otherwise — the thickness is a fingerprint of how the glass was made, not proof that glass is a liquid."
+description: "The story goes that centuries-old windowpanes are thicker at the bottom because glass flows like a slow liquid. Materials scientists at Corning and the Corning Museum of Glass say otherwise — the thickness is a fingerprint of how the glass was made."
 pubDate: 2026-10-18
 category: 'Science'
 verdict: 'False'
