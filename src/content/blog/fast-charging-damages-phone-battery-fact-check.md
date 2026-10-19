@@ -1,6 +1,6 @@
 ---
 title: "Does Fast Charging Damage Your Phone's Battery? What 500 Cycles of Testing Actually Show"
-description: "Tech advice sites have warned for years that fast charging eats your phone's battery alive. A six-month test running 40 phones through 500 charge cycles, lab research on lithium-ion chemistry, and the phone makers' own engineering all point to a more surprising answer: the watts are not the problem — heat is."
+description: "Tech advice sites have warned for years that fast charging eats your phone's battery alive. A six-month test running 40 phones through 500 charge cycles points to a surprising answer: the watts are not the problem — heat is."
 pubDate: 2026-10-19
 category: 'Technology'
 verdict: 'Misleading'
