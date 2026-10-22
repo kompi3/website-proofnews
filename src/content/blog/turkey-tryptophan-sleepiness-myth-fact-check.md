@@ -1,6 +1,6 @@
 ---
 title: "Does Turkey Really Make You Sleepy? The Tryptophan Myth Behind the Thanksgiving Food Coma"
-description: "Every November, turkey gets blamed for the post-Thanksgiving nap — supposedly because of the amino acid tryptophan. Nutrition scientists, food chemists, and USDA nutrient data all say the bird is innocent: it holds no tryptophan advantage over chicken, and you would need roughly twenty servings to feel any sedative effect. The real drowsiness comes from the rest of the plate."
+description: "Every November, turkey gets blamed for the post-Thanksgiving nap — supposedly because of the amino acid tryptophan. Scientists and USDA nutrient data say the bird is innocent: it holds no tryptophan advantage over chicken, and you would need roughly twenty servings to feel a sedative effect."
 pubDate: 2026-10-22
 category: 'Health'
 verdict: 'False'
