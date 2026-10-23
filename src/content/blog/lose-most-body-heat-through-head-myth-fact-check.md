@@ -1,6 +1,6 @@
 ---
 title: "No, You Don't Lose Most of Your Body Heat Through Your Head — the Winter Myth That Started in a Military Lab"
-description: "Parents, coaches, and army manuals have insisted for decades that 40 to 80 percent of body heat escapes through your head. The real figure is 7 to 10 percent — exactly the head's share of your skin. The claim traces to a 1950s military experiment whose volunteers wore Arctic survival suits with bare heads."
+description: "For decades we've been told 40 to 80 percent of body heat escapes through your head. The real figure is 7 to 10 percent — the head's share of skin. The claim traces to a 1950s military experiment whose volunteers wore Arctic survival suits with bare heads."
 pubDate: 2026-10-23
 category: 'Health'
 verdict: 'False'
