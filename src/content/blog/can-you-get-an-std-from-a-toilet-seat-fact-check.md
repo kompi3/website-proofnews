@@ -1,6 +1,6 @@
 ---
 title: "Can You Get an STD From a Toilet Seat? The Evidence, the Exceptions, and the Real Restroom Risks"
-description: "Can you get an STD from a toilet seat? No — health agencies and the biology of the germs themselves say a toilet seat cannot give you a sexually transmitted infection, though a damp towel or an uncleaned sex toy is a different story, and your hands are the part of the restroom routine that actually deserves attention."
+description: "Can you get an STD from a toilet seat? No — health agencies and the biology of the germs say a seat cannot give you a sexually transmitted infection, though damp towels and uncleaned sex toys are a different story."
 pubDate: 2026-11-01
 category: 'Health'
 verdict: 'False'
