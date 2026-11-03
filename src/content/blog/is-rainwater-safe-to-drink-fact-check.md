@@ -1,6 +1,6 @@
 ---
 title: "Is Rainwater Safe to Drink? No — Not Straight From the Sky or the Barrel"
-description: "Is rainwater safe to drink straight from the sky or a backyard barrel? The CDC says rainwater is not necessarily safe without treatment, and a 2022 global study found PFAS above the strictest drinking-water guidelines almost everywhere — but properly collected, filtered, and disinfected rainwater is a different story."
+description: "Is rainwater safe to drink straight from the sky or a backyard barrel? The CDC says it is not necessarily safe without treatment, and a 2022 study found PFAS above the strictest guidelines almost everywhere — but treated rainwater is a different story."
 pubDate: 2026-11-03
 category: 'Science'
 verdict: 'Misleading'
