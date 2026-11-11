@@ -13,8 +13,55 @@ type Props = CollectionEntry<'blog'>;
 
 const post = Astro.props;
 const { Content } = await render(post);
+
+// Related fact checks: keyword overlap with the current post's title,
+// preferring the same category, then the most recent matching posts.
+const stop = new Set(['the','a','an','of','to','in','on','for','and','at','by','from','with','its','it','as','is','are','was','were','how','why','what','does','do','did','can','you','your']);
+const keywords = (post.data.title.toLowerCase().match(/[a-z0-9][a-z0-9\-]*/g) ?? [])
+	.filter((w) => w.length > 2 && !stop.has(w));
+const allPosts = await getCollection('blog');
+const related = allPosts
+	.filter((p) => p.id !== post.id)
+	.map((p) => {
+		const hay = `${p.data.title} ${p.data.description ?? ''}`.toLowerCase();
+		const score = keywords.reduce((n, w) => n + (hay.includes(w) ? 1 : 0), 0)
+			+ (p.data.category && p.data.category === post.data.category ? 0.5 : 0);
+		return { p, score };
+	})
+	.filter(({ score }) => score >= 1)
+	.sort((a, b) => b.score - a.score || b.p.data.pubDate.valueOf() - a.p.data.pubDate.valueOf())
+	.slice(0, 3)
+	.map(({ p }) => p);
 ---
 
 <BlogPost {...post.data}>
 	<Content />
+	{related.length > 0 && (
+		<nav class="related-coverage" aria-label="Related fact checks">
+			<h2>Related Fact Checks</h2>
+			<ul>
+				{related.map((p) => (
+					<li><a href={`/blog/${p.id}/`}>{p.data.title}</a></li>
+				))}
+			</ul>
+		</nav>
+	)}
 </BlogPost>
+<style>
+	.related-coverage {
+		margin-top: 2.5em;
+		padding-top: 1.25em;
+		border-top: 1px solid var(--border, rgba(0, 0, 0, 0.15));
+	}
+	.related-coverage h2 {
+		font-size: 1.25rem;
+		margin: 0 0 0.6em 0;
+	}
+	.related-coverage ul {
+		margin: 0;
+		padding-left: 1.2em;
+	}
+	.related-coverage li {
+		margin: 0.35em 0;
+	}
+</style>
