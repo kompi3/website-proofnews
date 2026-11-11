@@ -48,6 +48,37 @@ const thumbFor = (post: (typeof posts)[number], i: number) => {
 };
 
 const verdictOrder: Verdict[] = ['True', 'Mostly True', 'Misleading', 'False', 'Unproven'];
+
+const faqs = [
+	{
+		q: 'What does ProofNews do?',
+		a: 'ProofNews is an independent fact-checking publication. We take claims that are spreading online — viral health tips, tech scares, science myths, and trending rumors — trace each one to its original source, weigh it against the best available evidence, and publish a clear verdict with the evidence shown.',
+	},
+	{
+		q: 'How do you choose which claims to check?',
+		a: 'A claim qualifies when it is widely shared, consequential if believed, and checkable. In practice that means a health claim that might change what someone eats or which medicine they take, a tech rumor that might make people fear or buy a product, or a viral statistic that is shaping what people believe — always something evidence can actually confirm or refute.',
+	},
+	{
+		q: 'What do the five verdicts mean?',
+		a: 'True means the claim is accurate as stated. Mostly True means it is accurate overall with minor caveats. Misleading means it contains real facts arranged or stripped of context so readers take away something untrue. False means the evidence does not support it or contradicts it. Unproven means the available evidence is not enough to settle the question either way.',
+	},
+	{
+		q: 'Where does your evidence come from?',
+		a: 'We rank our sources. Peer-reviewed studies, systematic reviews, and meta-analyses come first, followed by official guidance and data from institutions such as the WHO, CDC, FDA, and NASA, and then reputable reporting. Social media posts and anonymous claims are how claims reach us — never how we verify them. Every fact-check ends with a Sources section linking the primary material.',
+	},
+	{
+		q: 'Can I send you a claim to check?',
+		a: 'Yes — reader tips are one of our main sources of claims. Use the contact page or email us the post, message, or headline you saw. We cannot check everything we receive, but widely shared and consequential claims go to the front of the queue.',
+	},
+	{
+		q: 'What happens if you get a verdict wrong?',
+		a: 'We correct it openly. Confirmed errors are fixed with a dated correction note on the article itself, and if a verdict changes, the note explains why. Articles are never quietly deleted to hide a mistake. Our Corrections page sets out the full policy, and readers can report an error at any time.',
+	},
+	{
+		q: 'Who funds ProofNews, and does that affect verdicts?',
+		a: 'ProofNews is independently published and advertising supported. Advertisers have no say in which claims we check or which verdicts we reach, and no subject of a fact-check sees a verdict in advance. Our Editorial Policy page publishes the full standards every article is checked against.',
+	},
+];
 ---
 
 <!doctype html>
@@ -62,6 +93,18 @@ const verdictOrder: Verdict[] = ['True', 'Mostly True', 'Misleading', 'False', '
 				name: SITE_TITLE,
 				url: 'https://ProofNews.biz.id/',
 				description: SITE_DESCRIPTION,
+			})}
+		/>
+		<script
+			type="application/ld+json"
+			set:html={JSON.stringify({
+				'@context': 'https://schema.org',
+				'@type': 'FAQPage',
+				mainEntity: faqs.map((f) => ({
+					'@type': 'Question',
+					name: f.q,
+					acceptedAnswer: { '@type': 'Answer', text: f.a },
+				})),
 			})}
 		/>
 		<style>
@@ -223,6 +266,42 @@ const verdictOrder: Verdict[] = ['True', 'Mostly True', 'Misleading', 'False', '
 				font-size: 1.1rem;
 			}
 
+			.rich {
+				width: 780px;
+				max-width: 100%;
+				margin: 0 auto;
+				font-size: 1.05rem;
+				line-height: 1.8;
+			}
+			.rich p {
+				margin: 0 0 1.2em;
+			}
+			.rich h3 {
+				font-family: var(--serif);
+				font-size: 1.45rem;
+				margin: 1.6em 0 0.5em;
+			}
+			.rich-list {
+				margin: 0 0 1.2em;
+				padding-left: 1.4em;
+			}
+			.rich-list li {
+				margin-bottom: 0.9em;
+			}
+			.faq-item {
+				border-top: 1px solid var(--border);
+				padding: 1.3em 0;
+			}
+			.faq-item h3 {
+				font-size: 1.15rem;
+				margin: 0 0 0.4em;
+			}
+			.faq-item p {
+				margin: 0;
+				color: var(--muted);
+				line-height: 1.7;
+			}
+
 			@media (max-width: 900px) {
 				.cat-grid {
 					grid-template-columns: repeat(2, 1fr);
@@ -283,6 +362,96 @@ const verdictOrder: Verdict[] = ['True', 'Mostly True', 'Misleading', 'False', '
 		<section class="section">
 			<div class="section-inner">
 				<div class="section-head">
+					<span class="eyebrow">Why It Matters</span>
+					<h2>Claims Travel Faster Than <em>Corrections</em></h2>
+				</div>
+				<div class="rich">
+					<p>
+						A claim can circle the world before breakfast. A forwarded message warns that a
+						common food causes cancer; a short video insists your phone is listening to
+						everything you say; a dramatic photograph from another country and another decade
+						is captioned as breaking news. Each share takes two seconds and feels harmless —
+						but claims change behaviour. People skip medicine, try dangerous cures, fear safe
+						technology, send money to scams, and lose trust in institutions, often because of
+						something nobody ever actually checked.
+					</p>
+					<p>
+						The asymmetry is the problem. Inventing a claim costs nothing; checking one takes
+						time. Repetition makes falsehoods feel familiar, and familiar feels true — a
+						well-documented effect psychologists call illusory truth. Content that triggers
+						fear, outrage, or amazement travels further than careful content, which is why
+						the claims most worth checking are usually the ones spreading fastest. By the
+						time a rumor reaches you, it may have been reworded a dozen times, and the
+						original study, quote, or photograph it grew from may say something quite
+						different.
+					</p>
+					<p>
+						ProofNews exists to close that gap in public. We do not just stamp a verdict on a
+						claim: we show where it came from, what the strongest evidence actually says, and
+						how the two compare — so you can recognise the pattern next time, not just the
+						rating this time. Our <a href="/editorial-policy">Editorial Policy</a> publishes
+						the standards behind every verdict, and our <a href="/corrections">Corrections</a>
+						page explains what happens when we get one wrong.
+					</p>
+					<p>
+						There is one more uncomfortable fact: a correction almost never travels as far as
+						the claim it corrects. The original post is emotional and effortless to forward;
+						the check is careful and asks something of the reader. That is precisely why
+						checking early — and publishing the verdict where it can be found months later,
+						when the claim resurfaces in a new group chat — matters more than winning any
+						single argument about it.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" style="background: var(--bg-soft); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+			<div class="section-inner">
+				<div class="section-head">
+					<span class="eyebrow">Inside an Investigation</span>
+					<h2>From Viral Post to <em>Verdict</em> in Five Steps</h2>
+					<p>Every fact-check on ProofNews follows the same process, whatever the claim.</p>
+				</div>
+				<div class="rich">
+					<ol class="rich-list">
+						<li>
+							<strong>Claim selection.</strong> We choose claims that are widely shared,
+							consequential if believed, and checkable — a claim has to assert something
+							factual that evidence can confirm or refute. Opinions and jokes do not qualify;
+							miracle cures, safety scares, and viral statistics do.
+						</li>
+						<li>
+							<strong>Source tracing.</strong> We track the claim back to its origin: the
+							original study, post, broadcast, or announcement it grew from. The source is
+							very often narrower, older, or more cautious than the version now circulating,
+							and that gap is frequently the story.
+						</li>
+						<li>
+							<strong>Evidence gathering.</strong> We consult the strongest material
+							available — peer-reviewed research and meta-analyses first, then official
+							guidance from bodies such as the WHO, CDC, FDA, and NASA, then reputable
+							reporting. A single small study never outweighs a body of research.
+						</li>
+						<li>
+							<strong>Review before publication.</strong> Before anything goes live, the
+							draft is reviewed against its own sources: every figure, date, and quotation
+							is checked back against the material it came from, and the proposed verdict is
+							tested against the evidence one final time.
+						</li>
+						<li>
+							<strong>Verdict and sources.</strong> We publish the verdict with the reasoning
+							shown, and every fact-check ends with a Sources section linking the primary
+							material — so the checking itself can be checked. Read more on our
+							<a href="/about">About</a> page.
+						</li>
+					</ol>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="section-inner">
+				<div class="section-head">
 					<span class="eyebrow">How We Rate Claims</span>
 					<h2>Our <em>Verdict</em> Scale</h2>
 					<p>Every investigation ends with one of five verdicts — no hedging, no jargon.</p>
@@ -296,6 +465,24 @@ const verdictOrder: Verdict[] = ['True', 'Mostly True', 'Misleading', 'False', '
 							</div>
 						))
 					}
+				</div>
+				<div class="rich" style="margin-top: 2.5em;">
+					<p>
+						Two distinctions are worth understanding. <strong>Misleading is not a softer
+						False</strong>: a Misleading claim is built from facts that check out individually
+						but are arranged, exaggerated, or stripped of context so the conclusion does not.
+						And <strong>Unproven is not a shrug</strong> — it is the honest verdict when
+						studies are few, small, or contradictory, and we would rather publish it than
+						manufacture certainty in either direction.
+					</p>
+					<p>
+						A verdict always applies to the claim <em>as stated</em>, not to the nearest true
+						statement we can find — which is why precise wording matters, and why our articles
+						quote the claim before judging it. Verdicts are not permanent, either: if stronger
+						research overturns the evidence behind a rating, we update the article and explain
+						the change under our <a href="/corrections">Corrections</a> policy. The full
+						decision rules live on our <a href="/editorial-policy">Editorial Policy</a> page.
+					</p>
 				</div>
 			</div>
 		</section>
@@ -319,6 +506,183 @@ const verdictOrder: Verdict[] = ['True', 'Mostly True', 'Misleading', 'False', '
 							</a>
 						))
 					}
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="section-inner">
+				<div class="section-head">
+					<span class="eyebrow">The Four Beats</span>
+					<h2>What We Check, <em>in Depth</em></h2>
+				</div>
+				<div class="rich">
+					<h3>Health</h3>
+					<p>
+						Health claims carry the highest stakes, because believing one can change what
+						someone eats, drinks, or takes — or which treatment they skip. This desk checks
+						miracle cures, diet fads, supplement promises, medical rumors, and wellness
+						 folklore against clinical research and the guidance of bodies such as the WHO
+						and FDA. The pattern to watch: a single small study, a personal testimonial, or
+						a product to sell, dressed up as settled science.
+					</p>
+					<h3>Technology</h3>
+					<p>
+						Technology claims spread on a mixture of genuine change and genuine fear: AI
+						systems said to be doing things they cannot do, phones accused of spying in ways
+						they do not, scams dressed as support messages. We check these against how the
+						technology actually works, what regulators and researchers have documented, and
+						what the companies' own technical statements do — and do not — say.
+					</p>
+					<h3>Science</h3>
+					<p>
+						Science claims are often real findings stretched past breaking point: an animal
+						behaviour study becomes a universal law, a preliminary result becomes a
+						breakthrough, a myth from a century-old textbook refuses to die. We go back to
+						the papers and the institutions behind them, and we are careful about the
+						difference between what scientists have shown, what they suspect, and what they
+						have merely proposed.
+					</p>
+					<h3>Viral Claims</h3>
+					<p>
+						Whatever is moving fastest gets checked here: the forwarded warning, the
+						too-perfect statistic, the photograph with the wrong caption, the story that
+						sounds made up because it is. These checks often turn on provenance rather than
+						laboratories — finding the first version of a post, the original context of an
+						image, or the document a quote was lifted from and altered.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" style="background: var(--bg-soft); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+			<div class="section-inner">
+				<div class="section-head">
+					<span class="eyebrow">Reader's Toolkit</span>
+					<h2>Five Habits That Beat <em>Misinformation</em></h2>
+					<p>You do not need a newsroom to check a claim. These five habits catch most of them.</p>
+				</div>
+				<div class="rich">
+					<ol class="rich-list">
+						<li>
+							<strong>Pause before you share.</strong> Strong emotion is a signal, not a
+							source. If a post makes you furious, terrified, or delighted in the first three
+							seconds, that reaction is exactly what it was designed to produce — check
+							before you pass it on.
+						</li>
+						<li>
+							<strong>Find the original.</strong> Screenshots of headlines and quotes of
+							quotes are where accuracy goes to die. Follow the claim back to the first
+							study, statement, or report and read what it actually says.
+						</li>
+						<li>
+							<strong>Check the date and the place.</strong> A remarkable share of viral
+							images are real photographs attached to the wrong event — sometimes by years
+							and continents. When something happened matters as much as whether it
+							happened.
+						</li>
+						<li>
+							<strong>Look for a second, independent source.</strong> One outlet repeating
+							another is not corroboration. A claim gains strength when institutions with
+							no reason to coordinate — a regulator, a journal, a wire service — report the
+							same facts from their own evidence.
+						</li>
+						<li>
+							<strong>See whether it has already been checked.</strong> Long-running claims
+							recur in cycles. Search the claim here first — if it has been circulating for
+							years, there is a good chance we, or the record, have already weighed it.
+						</li>
+					</ol>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="section-inner">
+				<div class="section-head">
+					<span class="eyebrow">Know the Patterns</span>
+					<h2>Anatomy of a <em>Viral Claim</em></h2>
+					<p>Different topics, same skeletons. Most viral claims are built from five recurring patterns.</p>
+				</div>
+				<div class="rich">
+					<p>
+						<strong>The miracle cure.</strong> A kitchen ingredient, a seed, a tea — said to
+						cure what medicine treats imperfectly. The evidence is usually a testimonial, a
+						pet-dish experiment, or a study on a different substance entirely. The tell:
+						the claim promises certainty where real treatments honestly offer odds.
+					</p>
+					<p>
+						<strong>The suppressed study.</strong> "Scientists discovered this years ago, but
+						they don't want you to know." Suppression makes a weak claim unfalsifiable — the
+						absence of evidence becomes the evidence. In reality, findings this large are
+						published, debated, and built on in the open, because careers are made by
+						overturning consensus, not protecting it.
+					</p>
+					<p>
+						<strong>The out-of-context photograph.</strong> A real image with a false caption:
+						another year, another country, another event. The photo is genuine, which is what
+						makes the lie durable. Reverse-searching the image and finding its first
+						publication dismantles most of these in minutes.
+					</p>
+					<p>
+						<strong>The too-perfect statistic.</strong> A round, shocking number with no
+						source attached — "90 percent of…" Almost always, tracing it back ends at a
+						misquote, a decades-old survey of a tiny sample, or a number simply invented
+						because it sounded right. Real statistics come with a population, a year, and a
+						method attached.
+					</p>
+					<p>
+						<strong>The borrowed authority.</strong> A famous doctor, a Nobel laureate, a
+						celebrity — quoted saying something they never said, or said about something
+						else. The name does the persuading so the claim doesn't have to. Finding the
+						original interview or paper is usually enough to end it.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" style="background: var(--bg-soft); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+			<div class="section-inner">
+				<div class="section-head">
+					<span class="eyebrow">Verdicts in Practice</span>
+					<h2>What the Ratings Look Like <em>Up Close</em></h2>
+					<p>Four real checks from our archive — one for each end of the scale.</p>
+				</div>
+				<div class="rich">
+					<p>
+						<strong>True — you really can get sunburned on a cloudy day.</strong> It sounds
+						like something a sunscreen company invented, but the physics holds: clouds block
+						only part of the ultraviolet spectrum, and up to most UV radiation still reaches
+						the ground under light cloud cover. Our check of
+						<a href="/blog/can-you-get-sunburn-on-a-cloudy-day-fact-check/">the cloudy-day sunburn claim</a>
+						found the warning accurate as stated — a reminder that not every suspicious
+						sounding claim is false.
+					</p>
+					<p>
+						<strong>Mostly True — dogs really can smell cancer, with caveats.</strong> Two
+						decades of studies show trained dogs detecting cancers from breath and urine
+						samples at rates well above chance. But "can smell cancer" is not the same as "is
+						a reliable screening tool" — performance varies by cancer type and setting,
+						which is why our <a href="/blog/can-dogs-smell-cancer-fact-check/">dogs-and-cancer fact-check</a>
+						landed on Mostly True rather than True.
+					</p>
+					<p>
+						<strong>Misleading — cockroaches and the nuclear myth.</strong> Cockroaches do
+						tolerate far more radiation than humans, but the popular claim leaps from that
+						fact to surviving a nuclear blast — ignoring the heat, the shockwave, and what
+						the original experiments actually measured. Our
+						<a href="/blog/can-cockroaches-survive-a-nuclear-explosion-fact-check/">cockroach fact-check</a>
+						shows how a true fact, stretched, earns a Misleading verdict instead of a False
+						one.
+					</p>
+					<p>
+						<strong>False — 5G and your health.</strong> The claim that 5G signals damage
+						health has been tested by regulators and researchers across many countries, and
+						the evidence does not support it: the signals operate within long-studied,
+						non-ionising parts of the spectrum at regulated power levels. Our
+						<a href="/blog/5g-health-dangers-claim-fact-check/">5G health fact-check</a>
+						traces where the fear came from and why it persists despite the record.
+					</p>
 				</div>
 			</div>
 		</section>
@@ -351,6 +715,57 @@ const verdictOrder: Verdict[] = ['True', 'Mostly True', 'Misleading', 'False', '
 									<p>{post.data.description}</p>
 								</div>
 							</article>
+						))
+					}
+				</div>
+			</div>
+		</section>
+
+		<section class="section" style="background: var(--bg-soft); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+			<div class="section-inner">
+				<div class="section-head">
+					<span class="eyebrow">Why the Archive Matters</span>
+					<h2>The Claims That <em>Keep Coming Back</em></h2>
+				</div>
+				<div class="rich">
+					<p>
+						Debunked claims rarely die; they hibernate. A flu-season cure returns every
+						winter in new wording. Eclipse myths resurface on schedule, because eclipses do.
+						Brain-training and exam-season claims reappear every school year, aimed at a
+						fresh cohort of worried parents who have never seen the last round. Each revival
+						finds a new audience, a new platform, and sometimes a new product attached.
+					</p>
+					<p>
+						That cycle is why a fact-check is written to last, not just to trend. Our archive
+						is organised so a claim can be found when it resurfaces — by the question people
+						actually type — and each check preserves the evidence trail: the original source,
+						the strongest studies, the exact point where the viral version departs from the
+						record. When a claim returns wearing new clothes, the checking does not have to
+						start from zero, and neither do you.
+					</p>
+					<p>
+						It is also why we resist the temptation to declare the work finished. The five
+						verdicts on this page have been applied to hundreds of claims, and the next one
+						is already in someone's group chat. Send it to us when you see it — the archive
+						grows one checked claim at a time.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="section-inner">
+				<div class="section-head">
+					<span class="eyebrow">Common Questions</span>
+					<h2>Frequently Asked <em>Questions</em></h2>
+				</div>
+				<div class="rich">
+					{
+						faqs.map((f) => (
+							<div class="faq-item">
+								<h3>{f.q}</h3>
+								<p>{f.a}</p>
+							</div>
 						))
 					}
 				</div>
