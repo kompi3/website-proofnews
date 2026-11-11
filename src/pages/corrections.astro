@@ -1,0 +1,81 @@
+---
+import Page from '../layouts/Page.astro';
+import { CONTACT_EMAIL } from '../consts';
+---
+
+<Page
+	title="Corrections"
+	description="How to report an error in a ProofNews fact-check, what we correct, and how a correction appears on the article itself."
+	eyebrow="Getting It Right"
+>
+	<p>
+		ProofNews aims to get every fact right, and to fix it openly when we don't. A fact-checking
+		site that will not correct itself has no business correcting anyone else. This page explains
+		how to report an error, what we correct, and how a correction appears on the article itself.
+		Corrections are part of our <a href="/editorial-policy">Editorial Policy</a> — not an
+		afterthought.
+	</p>
+
+	<h2>How to Report an Error</h2>
+	<p>
+		Email us at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> or use the
+		<a href="/contact">contact page</a>. To help us act quickly, please include:
+	</p>
+	<ul>
+		<li>The article's URL and the sentence or detail you believe is wrong.</li>
+		<li>
+			What the correct information is, and — if you have one — a source that supports it, such
+			as a study, an official page, or a published dataset.
+		</li>
+	</ul>
+	<p>
+		You do not need to be an expert or the subject of the fact-check to report an error. Every
+		report is read, and we aim to review each one within two business days.
+	</p>
+
+	<h2>What We Correct</h2>
+	<ul>
+		<li>
+			<strong>Factual errors</strong> — wrong figures, dates, names, study results, or
+			quotations.
+		</li>
+		<li>
+			<strong>Wrong or outdated verdicts</strong> — a rating the evidence does not support, or
+			one overturned by stronger research published since.
+		</li>
+		<li>
+			<strong>Misleading framing</strong> — a headline, summary, or caption that claims more
+			than the checking supports.
+		</li>
+		<li>
+			<strong>Misattribution</strong> — a finding or statement credited to the wrong study,
+			institution, or person.
+		</li>
+		<li>
+			<strong>Broken or wrong source links</strong> — a Sources entry that no longer leads to
+			the material the article relied on.
+		</li>
+	</ul>
+	<p>
+		Minor typographical errors and formatting problems are fixed directly and do not require a
+		correction note.
+	</p>
+
+	<h2>How Corrections Appear</h2>
+	<p>
+		When a significant error is confirmed, we fix the article and add a dated correction note
+		to the article itself, stating what was wrong and what it has been changed to. If a
+		correction changes a verdict, the note explains why, and the article's verdict badge and
+		structured data are updated to match — the old verdict is never quietly swapped for a new
+		one. Articles are never deleted to hide an error; the correction stays with the article so
+		the record remains visible to anyone who read the original.
+	</p>
+
+	<h2>Disagree With a Verdict?</h2>
+	<p>
+		If your report amounts to new evidence rather than an error — a study we had not seen, or
+		data published after our fact-check — send it the same way. Evidence that changes the
+		picture leads to an update under the same rules as a correction, and we would rather
+		revisit a verdict than defend one the research no longer supports.
+	</p>
+</Page>

@@ -1,0 +1,109 @@
+---
+import Page from '../layouts/Page.astro';
+import { CONTACT_EMAIL } from '../consts';
+---
+
+<Page
+	title="Editorial Policy"
+	description="The standards every ProofNews fact-check is published under: how we choose claims, rank sources, decide verdicts, and review each article before it goes live."
+	eyebrow="Our Standards"
+>
+	<p>
+		This page sets out the standards every ProofNews fact-check is published under. It is the
+		same checklist we work to internally, published so readers can hold us to it. If you
+		believe an article falls short of these standards, <a href="/contact">contact us</a> — and
+		if it contains an error, our <a href="/corrections">Corrections</a> page explains what
+		happens next.
+	</p>
+
+	<h2>1. Claim Selection</h2>
+	<p>
+		We check claims, not people. A claim qualifies for a fact-check when it meets three tests:
+		it is <strong>widely shared</strong> (circulating on social media, in forwarded messages,
+		or in public discussion), it is <strong>consequential</strong> (a reader who believed it
+		might change a health decision, a purchase, a vote, or a belief about how the world works),
+		and it is <strong>checkable</strong> (it asserts something factual that evidence can
+		support or refute). Opinions, predictions, and satire are not fact-checked as if they were
+		factual claims; when we cover them, the article says so.
+	</p>
+
+	<h2>2. Sourcing Standards</h2>
+	<p>Sources are ranked, and every fact-check is built from the highest rank available:</p>
+	<ul>
+		<li>
+			<strong>Primary research</strong> — peer-reviewed studies, systematic reviews, and
+			meta-analyses, read in the original where possible, not just as reported elsewhere.
+		</li>
+		<li>
+			<strong>Official sources</strong> — guidance, data, and statements from the institutions
+			responsible for the subject, such as the WHO, CDC, FDA, NASA, and national statistics
+			agencies.
+		</li>
+		<li>
+			<strong>Reputable reporting</strong> — established news organisations and specialist
+			publications, used for context and for claims they directly witnessed or documented.
+		</li>
+		<li>
+			<strong>Never sufficient on their own</strong> — social media posts, anonymous claims,
+			screenshot chains, and content farms. These are how claims reach us, never how we
+			verify them.
+		</li>
+	</ul>
+	<p>
+		Every fact-check ends with a <strong>Sources</strong> section linking the primary material
+		used, so readers can inspect the same evidence we did. A single small study does not
+		settle a question that a body of research answers differently, and our articles say which
+		situation applies.
+	</p>
+
+	<h2>3. How Verdicts Are Decided</h2>
+	<p>
+		Each fact-check ends in one of five verdicts — <strong>True</strong>,
+		<strong>Mostly True</strong>, <strong>Misleading</strong>, <strong>False</strong>, or
+		<strong>Unproven</strong>. The verdict is assigned after the research, not before it, and
+		it follows the weight of the evidence: the rank and agreement of the sources, the size and
+		quality of the studies behind them, and how directly they address the claim as stated.
+		When the evidence is genuinely divided or absent, the verdict is Unproven rather than a
+		guess in either direction. Verdicts are also recorded in each article's structured data
+		(ClaimReview), so the rating is machine-readable and cannot quietly differ from the text.
+	</p>
+
+	<h2>4. Review Before Publication</h2>
+	<p>
+		No fact-check is published straight from a first draft. Before publication, every article
+		is reviewed against its own sources: each figure, date, name, and quotation is checked
+		back against the material it came from; quotations are kept short and attributed; and the
+		verdict is re-tested against the evidence one final time. If a claim in the draft cannot
+		be traced to a real, checkable source, it is removed or the article is not published.
+	</p>
+
+	<h2>5. How Our Content Is Made</h2>
+	<p>
+		ProofNews researches and drafts its articles with the help of modern research tools, under
+		the sourcing and review standards on this page. Tools can gather and organise material,
+		but they do not decide verdicts and they are never cited as sources: every fact in a
+		published article must trace to a real source a reader can open. We do not publish
+		invented experts, fabricated quotations, or synthetic eyewitnesses, and our articles are
+		published under the ProofNews name as an organisation rather than under invented
+		individual bylines.
+	</p>
+
+	<h2>6. Independence and Conflicts</h2>
+	<p>
+		ProofNews is independently published and advertising supported. Advertising has no
+		influence over which claims we select or which verdicts we reach, and no subject of a
+		fact-check is given advance sight of a verdict in exchange for anything. Where an article
+		discusses a product or service, the verdict rests on the same evidence standard as any
+		other claim.
+	</p>
+
+	<h2>7. Corrections and Updates</h2>
+	<p>
+		Errors are corrected promptly and openly under our
+		<a href="/corrections">Corrections</a> policy: significant corrections are noted on the
+		article itself with a date, and a verdict that changes is explained, not silently swapped.
+		If the evidence behind a published verdict is overturned by new research, we update the
+		article and say why. To report an error or suggest a claim, email us at
+		<a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+	</p>
+</Page>
